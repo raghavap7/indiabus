@@ -1354,7 +1354,7 @@ div.cs-select span {
 
 #fh5co-features {
   padding:  2em 0;
-  background:#0A6305;
+  background: #00AD7C;;
 }
 #fh5co-features .feature-left {
   margin-bottom: 40px;
@@ -1407,6 +1407,7 @@ div.cs-select span {
 }
 #fh5co-features .feature-left p {
   font-size: 15px;
+  color:#fff;
 }
 #fh5co-features .feature-left p:last-child {
   margin-bottom: 0;
@@ -1673,7 +1674,7 @@ div.cs-select span {
   color: #F78536;
 }
 .fh5co-social-icons > a i {
-  font-size: 26px;
+  font-size: 20px;
 }
 .fh5co-social-icons > a:hover, .fh5co-social-icons > a:focus, .fh5co-social-icons > a:active {
   text-decoration: none;
@@ -1682,11 +1683,12 @@ div.cs-select span {
 
 #footer {
   background:#14550E;
-  padding: 60px 0 40px;
+  padding: 20px 0px 20px;
 }
 #footer p {
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    margin-bottom: 11px;
 }
 #footer p a {
   color: rgba(255, 255, 255, 0.5);
@@ -1695,7 +1697,7 @@ div.cs-select span {
   color: rgba(255, 255, 255, 0.9) !important;
 }
 #footer .fh5co-footer-link {
-  padding-bottom: 30px;
+  padding-bottom: 5px;
 }
 #footer .fh5co-footer-link h3 {
   color: #fff;
@@ -1706,7 +1708,8 @@ div.cs-select span {
 #footer .fh5co-footer-link li, #footer .fh5co-footer-link ul {
   padding: 0;
   margin: 0;
-  font-size:20px !important;
+  font-size: 14px !important;
+  line-height: 7px !important;
 }
 #footer .fh5co-footer-link li {
   list-style: none;
@@ -2162,5 +2165,7 @@ div.cs-select span {
     color: #fff !important;
     outline: none !important;
 }
-
+.footer_adr{
+	font-size: 14px;
+}
 
