@@ -585,19 +585,14 @@
                                 </div>
                              </div>
                         </div>
-                        <div class="box">
+                         <div class="box">
                             <div class="content registerBox" style="display:none;">
                              <div class="form">
                                 <form method="post" html="{:multipart=>true}" data-remote="true" action="/register" accept-charset="UTF-8">
-                                <div class="group">      
-									  <input class="inputMaterial" type="text" required>
-									  <span class="highlight"></span>
-									  <span class="bar"></span>
-									  <label>Username</label>
-									</div>
-                                <input id="password" class="form-control input-trans" type="password" placeholder="Password" name="password">
-                                <input id="password_confirmation" class="form-control input-trans" type="password" placeholder="Repeat Password" name="password_confirmation">
-                                <input class="btn btn-default btn-register" type="submit" value="Create account">
+                                <input id="email" class="form-control" type="text" placeholder="Email" name="email">
+                                <input id="password" class="form-control" type="password" placeholder="Password" name="password">
+                                <input id="password_confirmation" class="form-control" type="password" placeholder="Repeat Password" name="password_confirmation">
+                                <input class="btn btn-default btn-register" type="submit" value="Create account" name="commit">
                                 </form>
                                 </div>
                             </div>
