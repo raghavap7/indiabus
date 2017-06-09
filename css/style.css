@@ -1698,13 +1698,14 @@ div.cs-select span {
   cursor: pointer;
 }
 /*Header*/
-header { width: 100%;background: #f8f8f8;height: 91px;margin-top: -20px; }
+header { width: 100%;background: #f8f8f8;height: 91px;margin-top: -20px;    border-bottom: 2px solid green; }
 .nav-bar { display: none; }
 
 header nav {
   background: #f8f8f8;
   z-index: 1000;
   width: 100%;
+height: 88px;
 }
 
 header nav ul { list-style: none; padding:1px !important;}
@@ -1890,9 +1891,9 @@ header {
 	
 }
 /*Header*/
-
-
-
+.nav-align li:hover a, .nav-align li.nav-align a, .nav-align ul li:hover a, .nav-align ul li.nav-align a, .nav-align li.active a{
+    color: #F78536;
+}
 .row-bottom-padded-lg {
   padding-bottom:  2em;
 }
