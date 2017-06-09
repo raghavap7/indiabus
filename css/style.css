@@ -162,7 +162,7 @@ figure {
 }
 
 .fh5co-cover .desc {
-  top: 51%;
+  top: 40%;
   position: absolute;
   width: 100%;
   margin-top: -80px;
@@ -547,36 +547,7 @@ figure {
   border: 1px solid red !important;
 }
 
-.nav-tabs {
-  border: none;
-}
-.nav-tabs a {
-  border: none !important;
-  font-weight: bold;
-  padding: 15px 20px !important;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  border-radius: 0;
-}
 
-.nav-tabs .active a {
-  border: none !important;
-  background: #F78536 !important;
-  color: #fff !important;
-  font-weight: bold;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  border-radius: 0;
-}
-.nav-tabs:hover a, .nav-tabs:focus a {
-  border: none !important;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  border-radius: 0;
-}
 
 .mt {
   margin-bottom: 10px;
@@ -1459,6 +1430,7 @@ div.cs-select span {
     color: rgba(255, 255, 255, 0.7);
     font-size: 16px;
     margin-bottom: 11px;
+	font-weight:bold;
 }
 #footer p a {
   color: rgba(255, 255, 255, 0.5);
@@ -1725,6 +1697,199 @@ div.cs-select span {
   display: none;
   cursor: pointer;
 }
+/*Header*/
+header { width: 100%;background: #f8f8f8;height: 91px;margin-top: -20px; }
+.nav-bar { display: none; }
+
+header nav {
+  background: #f8f8f8;
+  z-index: 1000;
+  width: 100%;
+}
+
+header nav ul { list-style: none; padding:1px !important;}
+
+header nav ul li {
+  float: left;
+  position: relative;
+}
+
+header nav:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header nav ul li a {
+  color: #848484;
+  display: block;
+  padding: 20px;
+  text-decoration: none !important;
+  font-size: 16px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight:bold;
+}
+
+header nav ul li:hover { background: transparent; }
+
+
+header nav ul li i { margin-right: 10px; }
+
+header nav ul li:hover .children { display: block; }
+
+header nav ul li .children {
+  display: none;
+  background: transparent;
+  position: absolute;
+  width: 150%;
+  z-index: 1000;
+}
+
+header nav ul li .children span { display: none; }
+
+header nav ul li .children li {
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #ffffff99;
+}
+
+header nav ul li .children li a { margin-left: 30px;    background: #f8f8f8; }
+
+header nav ul li .fa-angle-down {
+  position: relative;
+  top: 3px;
+}
+
+/*responsive nav style*/
+
+@media all and (max-width: 800px) {
+
+body { padding-top: 68px; }
+.nav-align{
+	margin-top: 5px;
+    background: antiquewhite;
+    margin-bottom: 0px !important;
+}
+.nav-bar {
+  display: block;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left:0;
+  background: #f8f8f8;
+  padding: 4px 20px;
+  z-index:999;
+}
+
+.nav-bar span {
+  float: left;
+  font-size: 20px;
+  padding: 20px;
+  color: #fff;
+}
+
+.nav-bar .fa-bars {
+  display: block;
+  padding: 20px;
+  color: ##F78536;
+  overflow: hidden;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  float: right;
+}
+
+header nav {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  right: 100%;
+  top : 63px;
+  overflow: hidden;
+
+}
+
+header nav ul li {
+  display: block;
+  border-bottom: 1px solid rgba(255, 255, .5);
+  width: 100%;
+}
+
+header ul li a { display: block; }
+
+header nav ul li .children {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: none;
+}
+
+header nav ul li:hover .children { display: block;     padding-left: 22px !important;}
+
+header nav ul li ul li:first-child { border-top: 1px solid #ffffff99; }
+
+header nav ul li .children span {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+header nav ul li .children a {
+  margin-left: 10px;
+  padding: 5px 0;
+      background: transparent !important;
+}
+
+header nav ul li .fa-angle-down {
+  position: relative;
+  top: 3px;
+}
+header {
+    /* width: 100%; */
+     background: #f8f8f8;
+    height: 0px;
+    /* margin-top: -20px; */
+}
+}
+@media all and (max-width: 450px) {
+	
+	header nav {
+		  width: 100%;
+		  height: auto;
+		  position: fixed;
+		  right: 100%;
+		  top : 63px;
+		  overflow: hidden;
+
+}
+
+header {
+    /* width: 100%; */
+    /* background: #f8f8f8; */
+    height: 0px;
+    /* margin-top: -20px; */
+}
+	
+}
+@media all and (max-width: 375px) {
+	
+	header nav {
+		  width: 100%;
+		  height: auto;
+		  position: fixed;
+		  right: 100%;
+		  top : 63px;
+		  overflow: hidden;
+
+}
+header {
+    /* width: 100%; */
+    /* background: #f8f8f8; */
+    height: 0px;
+    /* margin-top: -20px; */
+}
+	
+}
+/*Header*/
 
 
 
@@ -1905,13 +2070,30 @@ div.cs-select span {
 	.fh5co-cover .desc .desc2 {
 		display: block !important;
 	}
+	.fh5co-cover .desc{
+		top: 51%;
+		margin-top: -145px;
+	}
 	.well-1 {
     min-height: 372px !important;
 	}
 	.footer_adr {
 		font-size: 12px;
 	}
-	
+	header {
+		height: 131px;
+	}
+	.nav-align{
+	margin-top: -31px;
+	padding-right: 51px !important;
+	}
+	.nav-brand{
+		padding-left: 361px;
+	}
+	header nav ul li .children {
+		top: 60px;
+		left: -10px;
+	}
 }
 @media only screen and (max-width:1023px) and (min-width:768px){
 	#fh5co-menu-wrap{
@@ -1923,7 +2105,7 @@ div.cs-select span {
 		text-align:center;
 	}
 	.fh5co-cover .desc{
-		top:58%;
+		top:43% !important;
 	}
 	.animate-radius1 {
 		border-radius: 10px;
@@ -1932,7 +2114,7 @@ div.cs-select span {
 		margin-left: 111px;
 	}
 	#fh5co-tours{
-		margin-top: 611px;
+		margin-top: 548px;
 	}
 	.animate-radius2 {
 		border-radius: 10px;
@@ -1940,7 +2122,7 @@ div.cs-select span {
 		margin-top: 40px;
 	}
 	.fh5co-cover .fh5co-overlay, .fh5co-hero .fh5co-overlay{
-		height:1255px;
+		height:1190px;
 	}
 	.fh5co-tours1 > div {
 		width: 83%;
@@ -1973,7 +2155,7 @@ div.cs-select span {
 		width: 88%;
 	}
 	.fh5co-tours1 > div .desc{
-		    margin-top: -146px;
+		    margin-top: -107px;
 	}
 }
 
@@ -2073,6 +2255,13 @@ div.cs-select span {
 	.media-classp{
 		text-align:center;
 	}
+	.mt {
+    margin-bottom: 10px;
+    padding: 0px 1px !important;
+	}
+	body {
+    padding-top: 66px;
+}
 }
 @media only screen and (max-width:424px) and (min-width:375px){
 	#fh5co-menu-wrap{
@@ -2100,6 +2289,7 @@ div.cs-select span {
 	}
 	.fh5co-cover .desc{
 		top:58%;
+		    margin-top: -127px;
 	}
 
 	#fh5co-tours{
@@ -2110,7 +2300,7 @@ div.cs-select span {
 		margin-top: -210px;
 	}
 	.fh5co-cover .fh5co-overlay, .fh5co-hero .fh5co-overlay{
-		height:701px;
+		height:586px;
 	}
 	#fh5co-features .feature-left {
 		margin-bottom: 40px;
@@ -2122,7 +2312,7 @@ div.cs-select span {
 		margin-left: -24px;
 	}
 	#fh5co-tours {
-		margin-top: 60px;
+		margin-top: -58px;
 	}
 	.footer-ul2 {
 		padding-left: 0px !important;
@@ -2179,12 +2369,25 @@ div.cs-select span {
 	.img-responsive {
 		height: 165px !important;
 	}
+	.mt {
+    margin-bottom: 10px;
+    padding: 0px 1px !important;
+	}
+	.tab-content {
+    padding: 6px 24px;
+}
+body {
+    padding-top: 66px;
+}
 }
 @media only screen and (max-width:374px) and (min-width:320px){
 		#fh5co-menu-wrap{
 		margin-top: 0px;
 		float: left;
 		padding-left: 43px;
+	}
+	.fh5co-cover .desc{
+		    margin-top: -138px;
 	}
 	.modal.in .modal-dialog{
 			width:95%;
@@ -2205,7 +2408,7 @@ div.cs-select span {
 		text-align:center;
 	}
 	.fh5co-cover .desc{
-		top:58%;
+		top:63%;
 	}
 
 	#fh5co-tours{
@@ -2216,7 +2419,7 @@ div.cs-select span {
 		margin-top: -210px;
 	}
 	.fh5co-cover .fh5co-overlay, .fh5co-hero .fh5co-overlay{
-		height:701px;
+		height:548px;
 	}
 	
 	.fh5co-tours1 > div {
@@ -2224,7 +2427,7 @@ div.cs-select span {
 		margin-left: -24px;
 	}
 	#fh5co-tours {
-		margin-top: 60px;
+		margin-top:-101px;
 	}
 	.footer-ul2 {
 		padding-left: 0px !important;
@@ -2277,7 +2480,6 @@ div.cs-select span {
 	#footer .fh5co-footer-link {
 		padding-bottom: 5px;
 		padding: 4px;
-		display:none;
 	}
 	.img-responsive {
 		height: 165px !important;
@@ -2295,5 +2497,24 @@ div.cs-select span {
 		width: 293px;
 		padding-left: 14%;
 	}
+	.tab-content {
+    padding: 6px 24px;
 }
+body {
+    padding-top: 66px;
+}
+.form-header-align {
+    background: #F78536;
+    padding: 6px;
+    width: 120%;
+    margin-bottom: 3px;
+    margin-left: -24px;
+	    margin-top: -7px;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+}
+
+
 /*Media Screens End*/

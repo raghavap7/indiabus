@@ -33,12 +33,16 @@
 
 	//Date Picker
 
-   $('#date-start, #date-end').datepicker();
+  // $('#date-start, #date-end').datepicker();
 
-   [].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {  
-      new SelectFx(el);
-   } );
-
+		 [].slice.call( document.querySelectorAll( 'select.cs-select' ) ).forEach( function(el) {  
+		  new SelectFx(el);
+		} );
+		$('#date-start, #date-end').datepicker({
+			format: 'dd/mm/yyyy',
+		}).on('changeDate', function(e){
+			$(this).datepicker('hide');
+		});
 	// Parallax
 	var parallax = function() {
 		if ( !isiPad() || !isiPhone() ) {
@@ -157,3 +161,46 @@
 
 
 }());
+
+$(document).ready(function(){
+
+	var val = 1;
+
+  $(".nav-bar").click(function(){
+
+
+  	if (val == 1) {
+
+	  	$("header nav").animate({
+	    	'left' : '0'
+	    });
+	    val = 0;
+  	}else{
+  		val = 1;
+  		$("header nav").animate({
+		    'left' : '-100%'
+		});
+  	}
+    return false;
+  });
+
+ 
+ // submenu
+
+$(document).ready(function(){
+    $(".sub-menu").change(function(){
+        $(this).find("option:selected").each(function(){
+            var optionValue = $(this).attr("value");
+            if(optionValue){
+                $(".children").not("." + optionValue).hide();
+                $("." + optionValue).show();
+            } else{
+                $(".children").hide();
+            }
+        });
+    }).change();
+});
+
+ });
+
+
