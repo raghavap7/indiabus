@@ -187,20 +187,36 @@ $(document).ready(function(){
  
  // submenu
 
-$(document).ready(function(){
-    $(".sub-menu").change(function(){
-        $(this).find("option:selected").each(function(){
-            var optionValue = $(this).attr("value");
-            if(optionValue){
-                $(".children").not("." + optionValue).hide();
-                $("." + optionValue).show();
-            } else{
-                $(".children").hide();
-            }
-        });
-    }).change();
-});
+		$(document).ready(function(){
+			$(".sub-menu").change(function(){
+				$(this).find("option:selected").each(function(){
+					var optionValue = $(this).attr("value");
+					if(optionValue){
+						$(".children").not("." + optionValue).hide();
+						$("." + optionValue).show();
+					} else{
+						$(".children").hide();
+					}
+				});
+			}).change();
+		});
+		
+		//date search
+		document.getElementById("up").onclick = function(){
+		var i = dataI.valueOf() + 86400000 ;
+		dataI = new Date( i);
+		document.getElementById("dateD").innerHTML =dataI.toDateString();
+		}
+		document.getElementById("down").onclick = function(){
+		var i = dataI.valueOf() - 86400000 ;
+		dataI = new Date( i);
+		document.getElementById("dateD").innerHTML =dataI.toDateString();
+		}
+		var dataI = new Date();
+		document.getElementById("dateD").innerHTML =dataI.toDateString();
+		
 
- });
+
+});
 
 
