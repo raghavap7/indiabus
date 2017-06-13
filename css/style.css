@@ -2148,7 +2148,48 @@ header {
     background: #FFF;
     box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
 }
-/*Media Screens Start*/
+.buses-search-list{
+	padding:20px 0px;
+	font-size:15px;
+}
+.bus-list-title{
+	margin-bottom:2px !important;
+}
+.bus-list-title1{
+	margin-bottom:2px !important;
+	font-size:18px;
+	text-align:right;
+}
+.search-bus-rating{
+	padding: 2px;
+    color: #fff;
+    border-radius: 3px;
+    margin-right: 5px;
+    width: 50px;
+    text-align: center;
+    background: #F78536;
+    margin-bottom: 4px;
+}
+.button-1{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+    overflow: hidden;
+    text-decoration: none;
+    transition: .1s;
+    border: none;
+    text-align: center;
+    background-color: #F78536;
+    color: #fff;
+}
+.bus-search-row{
+	border-bottom:2px solid #ccc;
+	padding: 20px 0px;
+	box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+}
+/*Media Screens Start*//*Media Screens Start*//*Media Screens Start*//*Media Screens Start*/
+/*Media Screens Start*//*Media Screens Start*//*Media Screens Start*//*Media Screens Start*/
+/*Media Screens Start*//*Media Screens Start*//*Media Screens Start*//*Media Screens Start*/
 @media only screen and (max-width:1199px) and (min-width:1024px){
 	.filter1 {
 		padding: 10px 0px;
@@ -2204,6 +2245,12 @@ header {
 	}
 }
 @media only screen and (max-width:1023px) and (min-width:768px){
+	.bus-search-name{
+		text-align: center;
+		border-bottom: 2px dotted #787878;
+		margin-bottom: 12px;
+		display: -webkit-inline-box;
+	}
 	.filter1 {
 		height:40px;
 	}
@@ -2213,7 +2260,7 @@ header {
 	}
 	.colmdalign1{
 		width: 100%;
-		text-align: center;
+		text-align: right;
 		padding-bottom: 10px;
 	}
 	.colmdalign3{
@@ -2290,6 +2337,37 @@ header {
 }
 
 @media only screen and (max-width:765px) and (min-width:425px){
+	.button-1{
+		padding :7px 9px!important;
+		font-size: 8px !important;
+	}
+	.bus-rating1{border-bottom:2px dotted #ccc;padding-bottom: 14px;}
+	.btn-search-buses{text-align:center !important;}
+	.bus-list-title {
+    margin-bottom: 2px !important;
+    font-size: 12px;
+	}
+	.bus-list-title1 {
+		margin-bottom: 2px !important;
+		font-size: 15px;
+		text-align:right;
+	}
+	.bus-rating {
+		float: right;
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+	}
+	.button-1 {
+		font-size: 10px !important;
+	
+	}
+	.search-bus-rating {font-size:12px !important;}
+	.bus-search-name{
+		text-align: center;
+		border-bottom: 2px dotted #787878;
+		margin-bottom: 12px;
+		display: -webkit-inline-box;
+	}
 	.search-btn1{
 		    margin-top: 9px;
 	}
@@ -2431,7 +2509,23 @@ header {
 }
 }
 @media only screen and (max-width:424px) and (min-width:375px){
-		.search-btn1{
+	.button-1{
+		padding :7px 9px!important;
+		font-size: 8px !important;
+	}
+	.bus-rating1{border-bottom:2px dotted #ccc;padding-bottom: 18px;}
+	.bus-rating{float:right;padding-bottom: 11px;}
+	.bus-list-title {
+    margin-bottom: 2px !important;
+    font-size: 12px;
+	}
+	.bus-search-name{
+		text-align: center;
+		border-bottom: 2px dotted #787878;
+		margin-bottom: 12px;
+		display: -webkit-inline-box;
+	}
+	.search-btn1{
 		    margin-top: 9px;
 	}
 	.filter1 {
@@ -2587,6 +2681,22 @@ body {
 }
 }
 @media only screen and (max-width:374px) and (min-width:320px){
+	.button-1{
+		padding :7px 9px!important;
+		font-size: 8px !important;
+	}
+	.bus-rating{float:right;margin-bottom:10px;padding-bottom: 7px;}
+	.bus-rating1{border-bottom:2px dotted #ccc;}
+	.bus-search-name{
+		text-align: center;
+		border-bottom: 2px dotted #787878;
+		margin-bottom: 12px;
+	}
+	.image-responsive2{display:none;}
+	.bus-list-title {
+    margin-bottom: 2px !important;
+    font-size: 12px;
+	}
 	.filter1 {
 		padding: 0px;
 		padding-right: 2px;
@@ -2765,4 +2875,11 @@ body {
 }
 
 
+.print-box{
+    background: #f8f8f8;
+    padding-bottom: 16px;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+}
+.ticket-size{font-size:20px !important;}
+.ticket-cancle-btn{margin-top: 22px;}
 /*Media Screens End*/
