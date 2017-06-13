@@ -36,10 +36,7 @@ a:hover {
   text-decoration: none;
   color: #F78536;
 }
-a:visited {
-  text-decoration: none;
-  color: #F78536;
-}
+
 
 p, ul, ol {
   margin-bottom: 1.5em;
