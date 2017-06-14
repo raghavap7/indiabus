@@ -39,27 +39,7 @@
 	<link rel="stylesheet" href="css/fa/css/font-awesome.min.css">
 	<link href="css/login-register.css" rel="stylesheet" />
 	<!-- Modernizr JS -->
-	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-	<script type="text/javascript">
-    jQuery(function ($) {
-        function init_map1() {
-            var myLocation = new google.maps.LatLng(17.403859, 78.470466);
-            var mapOptions = {
-                center: myLocation,
-                zoom: 16
-            };
-            var marker = new google.maps.Marker({
-                position: myLocation,
-                title: "Property Location"
-            });
-            var map = new google.maps.Map(document.getElementById("map1"),
-                mapOptions);
-            marker.setMap(map);
-        }
-        init_map1();
-    });
-	</script>
-	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=MYAPIKEY"></script>
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script> 
 	<script>
 	  function initialize() {
 		var mapCanvas = document.getElementById('map1');
