@@ -59,6 +59,29 @@
         init_map1();
     });
 	</script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=MYAPIKEY"></script>
+	<script>
+	  function initialize() {
+		var mapCanvas = document.getElementById('map1');
+		var myLatlng = new google.maps.LatLng(17.403859, 78.470466);
+
+		var mapOptions = {
+		  center: myLatlng,
+		  zoom:16,
+		  mapTypeId: google.maps.MapTypeId.ROADMAP
+		}
+
+		var map = new google.maps.Map(document.getElementById('map1'), mapOptions);
+
+		var marker = new google.maps.Marker({
+		  position: myLatlng,
+		  map: map,
+		  title: 'LCCEurotex'
+		});
+
+	  }
+	  google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<script src="js/login-register.js" type="text/javascript"></script>
 	<script src="js/jquery-1.10.2.js" type="text/javascript"></script>
