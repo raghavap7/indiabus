@@ -2194,7 +2194,9 @@ header {
 	font-size:14px;
 }
 
-
+.search-input{
+	margin-bottom:10px;
+}
 .print-box{
     background: #f8f8f8;
     padding-bottom: 16px;
@@ -2208,6 +2210,240 @@ header {
         width: 100%;
         height: 100%;
     }
+.bus-booking{
+    font-size: 12px;
+    font-weight: bold;
+	margin-bottom:2px !important;
+}
+.bus-booking1	{
+	font-size:12px;
+}
+.cs-select1{
+	font-size:12px;
+}	
+tbody{
+	background-color: #fffaf0; 
+	margin-top: 10px;
+	margin-left: 10px;
+	padding: 10px;
+	    border: 2px solid;
+}
+
+.v-sleeperSeatContainer{
+	height: auto;
+	margin-left: 10px;
+}
+.v-steering img{
+	margin-right: 20px;
+}
+.v-first-row-sleeperSeating{
+	font-size: 10px;
+}
+.v-seatSelection{
+	height: 40px;
+	width: 44px;
+	cursor: pointer;
+}
+label span{
+	    font-size: 15px;
+}
+.v-seatBookingOptions-Padding{
+	padding-top: 10px;
+	font-size: 13px;
+	margin-left: 5%;
+}
+.mt1{
+	    margin-bottom: -14px;
+	}	
+.busbook-opt{
+	background: rgba(0, 0, 0, 0.05);
+    color: #F78536;
+	font-size:12px;
+}
+.viewseats1{
+	background: #F8F9F9;
+    padding: 21px 5px;
+	margin-top:20px;
+}
+.print-btn-1 {
+    margin: 3px 0px;
+}
+.payment-head{
+	background:#FCC080;
+	margin-top: -25px;
+	padding:10px;
+}
+.timer {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0 2px;
+}
+.payment-body{
+	background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 1px 8px #ccc;
+    margin-bottom: 10px;
+}
+.cuponid{
+	display:inline-flex;
+}
+
+.tab-wallet{margin-top:-10px;margin-bottom:-10px;}
+.Wallet{width: 36px;height: 33px;margin-left: -8px;}
+/* custom inclusion of right, left and below tabs */
+
+.tabs-below > .nav-tabs,
+.tabs-right > .nav-tabs,
+.tabs-left > .nav-tabs {
+  border-bottom: 0;
+}
+
+.tab-content > .tab-pane,
+.pill-content > .pill-pane {
+  display: none;
+}
+
+.tab-content > .active,
+.pill-content > .active {
+  display: block;
+}
+
+.tabs-below > .nav-tabs {
+  border-top: 1px solid #ddd;
+}
+
+.tabs-below > .nav-tabs > li {
+  margin-top: -1px;
+  margin-bottom: 0;
+}
+
+.tabs-below > .nav-tabs > li > a {
+  -webkit-border-radius: 0 0 4px 4px;
+     -moz-border-radius: 0 0 4px 4px;
+          border-radius: 0 0 4px 4px;
+}
+
+.tabs-below > .nav-tabs > li > a:hover,
+.tabs-below > .nav-tabs > li > a:focus {
+  border-top-color: #ddd;
+  border-bottom-color: transparent;
+}
+
+.tabs-below > .nav-tabs > .active > a,
+.tabs-below > .nav-tabs > .active > a:hover,
+.tabs-below > .nav-tabs > .active > a:focus {
+  border-color: transparent #ddd #ddd #ddd;
+}
+
+.tabs-left > .nav-tabs > li,
+.tabs-right > .nav-tabs > li {
+  float: none;
+}
+
+.tabs-left > .nav-tabs > li > a,
+.tabs-right > .nav-tabs > li > a {
+  min-width: 74px;
+  margin-right: 0;
+  margin-bottom: 3px;
+}
+
+.tabs-left > .nav-tabs {
+  float: left;
+  margin-right: 19px;
+  border-right: 1px solid #ddd;
+}
+
+
+.tabs-left > .nav-tabs > li > a:hover,
+.tabs-left > .nav-tabs > li > a:focus {
+  border:transparent;
+}
+.tabs-right > .nav-tabs {
+  float: right;
+  margin-left: 19px;
+  border-left: 1px solid #ddd;
+}
+
+.tabs-right > .nav-tabs > li > a {
+  margin-left: -1px;
+  -webkit-border-radius: 0 4px 4px 0;
+     -moz-border-radius: 0 4px 4px 0;
+          border-radius: 0 4px 4px 0;
+}
+
+.tabs-right > .nav-tabs > li > a:hover,
+.tabs-right > .nav-tabs > li > a:focus {
+  border-color: #eeeeee #eeeeee #eeeeee #dddddd;
+}
+
+.tabs-right > .nav-tabs .active > a,
+.tabs-right > .nav-tabs .active > a:hover,
+.tabs-right > .nav-tabs .active > a:focus {
+  border-color: #ddd #ddd #ddd transparent;
+  border-left-color: #ffffff;
+}
+.cupon-code{margin-top:3px;}
+.cupontext:focus {
+    border-bottom: 1px solid !important;
+   border: none !important;
+    -webkit-box-shadow:transparent;
+    box-shadow:transparent;
+}
+.cupontext {
+    border: none !important;
+	border-bottom: 1px solid !important;
+    border-radius: 0px !important;
+}
+
+
+/* CSS for Credit Card Payment form */
+.credit-card-box .panel-title {
+    display: inline;
+    font-weight: bold;
+}
+.credit-card-box .form-control.error {
+    border-color: red;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(255,0,0,0.6);
+}
+.credit-card-box label.error {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box .payment-errors {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box label {
+    display: block;
+}
+/* The old "center div vertically" hack */
+.credit-card-box .display-table {
+    display: table;
+}
+.credit-card-box .display-tr {
+    display: table-row;
+}
+.credit-card-box .display-td {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+}
+/* Just looks nicer */
+.credit-card-box .panel-heading img {
+    min-width: 180px;
+}
+.paye-details{
+	    height: 25px;
+}
+.cards-input{
+		height: 18px;
+}
 /*Media Screens Start*//*Media Screens Start*//*Media Screens Start*//*Media Screens Start*/
 /*Media Screens Start*//*Media Screens Start*//*Media Screens Start*//*Media Screens Start*/
 /*Media Screens Start*//*Media Screens Start*//*Media Screens Start*//*Media Screens Start*/
@@ -2358,6 +2594,11 @@ header {
 }
 
 @media only screen and (max-width:765px) and (min-width:425px){
+		.table-responsive > .table > thead > tr > th, .table-responsive > .table > thead > tr > td, 
+		.table-responsive > .table > tbody > tr > th, .table-responsive > .table > tbody > tr > td, 
+		.table-responsive > .table > tfoot > tr > th, .table-responsive > .table > tfoot > tr > td {
+		white-space: normal;
+	}
 	.button-1{
 		padding :7px 9px!important;
 		font-size: 8px !important;
@@ -2530,6 +2771,11 @@ header {
 }
 }
 @media only screen and (max-width:424px) and (min-width:375px){
+		.table-responsive > .table > thead > tr > th, .table-responsive > .table > thead > tr > td, 
+		.table-responsive > .table > tbody > tr > th, .table-responsive > .table > tbody > tr > td, 
+		.table-responsive > .table > tfoot > tr > th, .table-responsive > .table > tfoot > tr > td {
+		white-space: normal;
+	}
 	.button-1{
 		padding :7px 9px!important;
 		font-size: 8px !important;
@@ -2702,6 +2948,11 @@ body {
 }
 }
 @media only screen and (max-width:374px) and (min-width:320px){
+		.table-responsive > .table > thead > tr > th, .table-responsive > .table > thead > tr > td, 
+		.table-responsive > .table > tbody > tr > th, .table-responsive > .table > tbody > tr > td, 
+		.table-responsive > .table > tfoot > tr > th, .table-responsive > .table > tfoot > tr > td {
+		white-space: normal;
+	}
 	.button-1{
 		padding :7px 9px!important;
 		font-size: 8px !important;

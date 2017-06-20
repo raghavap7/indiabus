@@ -61,7 +61,7 @@
 					<li class=""><a href="PrintSmsTicket.html"><i class="fa fa-mobile" ></i>Print/Sms Ticket</a></li>
 					<li><a href="CancelTicket.html"><i class="fa fa-ticket" aria-hidden="true"></i>Cancel Ticket</a></li>
 					<li class="sub-menu">
-						<li><a href="ContactUs.html"><i class="fa fa-address-book" aria-hidden="true"></i>Contact &nbsp;&nbsp;<i class="fa fa-angle-down"></i></a>
+						<li><a href="#"><i class="fa fa-address-book" aria-hidden="true"></i>Contact &nbsp;&nbsp;<i class="fa fa-angle-down"></i></a>
 						<!-- children nav -->
 						<ul class="children">
 								<li><a href="#"><i class="fa fa-mobile" aria-hidden="true"></i>+91 7658941111 </a></li>
@@ -92,10 +92,10 @@
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid">
+	<div class="container-fluid" id="filter-data">
 		<div class="row">
 			<div class="col-md-12 filter">
-				<div class="col-md-2 col-sm-2  colmdalign1">
+				<div class="col-md-2 col-sm-3  colmdalign1">
 					<p class="search-p3 "><strong>Filter By &nbsp;&nbsp; :</strong></p>
 				</div>
 				<div class="col-md-1 col-sm-3 col-xs-4 colmdalign">
@@ -135,6 +135,613 @@
 				<p class="search-p2 style_prevu_kit1"><a href="#"><strong>Fare&nbsp;&nbsp;</strong><i class="fa fa-sort" aria-hidden="true"></i></a></p>
 				</div>
 			</div>
+	<div class="container filter-details" hidden>
+	<form id="myForm">
+	<div class="row">			
+	<div class="col-m-12" id="onward_filterDetails">
+	<div class="clearfix main-body filterDetails-wrap animated fadeIn" data-view="filterDetailsViewonward">
+	<div class="col-md-2 col-sm-3 col-xs-6">
+		<div class="input-group">
+			<input type="text" class="form-control" placeholder="Operator" id="inputGroup"/>
+			<span class="input-group-addon input-group-addon1">
+			<i class="fa fa-search"></i>
+			</span>
+		</div>
+   <ul class="filterDetails-wrap1">
+      <li data-value="APSRTC_10283" class="checkbox">
+         <input type="checkbox" id="travels_APSRTC_10283" data-type="onward">
+         <label for="travels_APSRTC_10283" class="custom-checkbox"></label>
+         <label for="travels_APSRTC_10283" title="APSRTC">APSRTC</label>
+      </li>
+      <li data-value="KAVERI TRAVELS_95" class="checkbox">
+         <input type="checkbox" id="travels_Kaveri-Travels_95" data-type="onward">
+         <label for="travels_Kaveri-Travels_95" class="custom-checkbox"></label>
+         <label for="travels_Kaveri-Travels_95" title="Kaveri Travels">Kaveri Travels</label>
+      </li>
+      <li data-value="MORNING  STAR  TRAVELS_3538" class="checkbox">
+         <input type="checkbox" id="travels_Morning-Star-Travels_3538" data-type="onward">
+         <label for="travels_Morning-Star-Travels_3538" class="custom-checkbox"></label>
+         <label for="travels_Morning-Star-Travels_3538" title="Morning  Star  Travels">Morning  Star  Travels</label>
+      </li>
+      <li data-value="NANI'S SAI KRISHNA  TRAVELS_4557" class="checkbox">
+         <input type="checkbox" id="travels_Nani's-sai-krishna-travels_4557" data-type="onward">
+         <label for="travels_Nani's-sai-krishna-travels_4557" class="custom-checkbox"></label>
+         <label for="travels_Nani's-sai-krishna-travels_4557" title="Nani's sai krishna  travels">Nani's sai krishna  travels</label>
+      </li>
+      <li data-value="ORANGE TOURS AND TRAVELS_3804" class="checkbox">
+         <input type="checkbox" id="travels_Orange-Tours-And-Travels_3804" data-type="onward">
+         <label for="travels_Orange-Tours-And-Travels_3804" class="custom-checkbox"></label>
+         <label for="travels_Orange-Tours-And-Travels_3804" title="Orange Tours And Travels">Orange Tours And Travels</label>
+      </li>
+      <li data-value="YAMANI TRAVELS_4228" class="checkbox">
+         <input type="checkbox" id="travels_Yamani-Travels_4228" data-type="onward">
+         <label for="travels_Yamani-Travels_4228" class="custom-checkbox"></label>
+         <label for="travels_Yamani-Travels_4228" title="Yamani Travels">Yamani Travels</label>
+      </li>
+   </ul>
+</div>
+
+<div class="col-md-2 col-sm-3 col-xs-6">
+   <div class="filter-header filter-bustype">
+      BUS TYPES
+   </div>
+   <ul class="filterDetails-wrap1">
+      <li class="checkbox">
+         <input type="checkbox" id="busType_AC-Sleeper" data-type="onward">
+         <label for="busType_AC-Sleeper" class="custom-checkbox"></label>
+         <label for="busType_AC-Sleeper" title="AC Sleeper">AC Sleeper</label>
+      </li>
+      <li class="checkbox">
+         <input type="checkbox" id="busType_Non-AC-Sleeper" data-type="onward">
+         <label for="busType_Non-AC-Sleeper" class="custom-checkbox"></label>
+         <label for="busType_Non-AC-Sleeper" title="Non-AC Sleeper">Non-AC Sleeper</label>
+      </li>
+      <li class="checkbox">
+         <input type="checkbox" id="busType_AC-Seater" data-type="onward">
+         <label for="busType_AC-Seater" class="custom-checkbox"></label>
+         <label for="busType_AC-Seater" title="AC Seater">AC Seater</label>
+      </li>
+      <li class="checkbox">
+         <input type="checkbox" id="busType_Non-AC-Seater" data-type="onward">
+         <label for="busType_Non-AC-Seater" class="custom-checkbox"></label>
+         <label for="busType_Non-AC-Seater" title="Non-AC Seater">Non-AC Seater</label>
+      </li>
+      <li class="checkbox">
+         <input type="checkbox" id="busType_Cab" data-type="onward">
+         <label for="busType_Cab" class="custom-checkbox"></label>
+         <label for="busType_Cab" title="Cab">Cab</label>
+      </li>
+   </ul>
+</div>
+
+
+<div class="col-md-2 col-sm-3 col-xs-6">
+   <div class="filter-header filter-time">
+      DEPARTURE TIME
+   </div>
+   <ul class="filterDetails-wrap1">
+      <li class="checkbox">
+         <input type="checkbox" id="timeOfDay_night" data-type="onward">
+         <label for="timeOfDay_night" class="custom-checkbox"></label>
+         <label for="timeOfDay_night">00:00 to 05:59</label>
+      </li>
+      <li class="checkbox">
+         <input type="checkbox" id="timeOfDay_morning" data-type="onward">
+         <label for="timeOfDay_morning" class="custom-checkbox"></label>
+         <label for="timeOfDay_morning">06:00 to 11:59</label>
+      </li>
+      <li class="checkbox">
+         <input type="checkbox" id="timeOfDay_afternoon" data-type="onward">
+         <label for="timeOfDay_afternoon" class="custom-checkbox"></label>
+         <label for="timeOfDay_afternoon">12:00 to 17:59</label>
+      </li>
+      <li class="checkbox">
+         <input type="checkbox" id="timeOfDay_evening" data-type="onward">
+         <label for="timeOfDay_evening" class="custom-checkbox"></label>
+         <label for="timeOfDay_evening">18:00 to 23:59</label>
+      </li>
+   </ul>
+</div>
+
+
+<div class="col-md-2 col-sm-3 col-xs-6">
+   <div class="filter-header  filter-amen">
+    Amenities
+   </div>
+   <ul class="filterDetails-wrap1">
+      <li class="checkbox">
+         <input type="checkbox" id="amenities_1" data-type="onward">
+         <label for="amenities_1" class="custom-checkbox"></label>
+         <label for="amenities_1">WIFI</label>
+      </li>
+      <li class="checkbox">
+         <input type="checkbox" id="amenities_3" data-type="onward">
+         <label for="amenities_3" class="custom-checkbox"></label>
+         <label for="amenities_3">Headsets</label>
+      </li>
+      <li class="checkbox">
+         <input type="checkbox" id="amenities_4" data-type="onward">
+         <label for="amenities_4" class="custom-checkbox"></label>
+         <label for="amenities_4">Water Bottle</label>
+      </li>
+      <li class="checkbox">
+         <input type="checkbox" id="amenities_5" data-type="onward">
+         <label for="amenities_5" class="custom-checkbox"></label>
+         <label for="amenities_5">Blankets</label>
+      </li>
+      <li class="checkbox">
+         <input type="checkbox" id="amenities_7" data-type="onward">
+         <label for="amenities_7" class="custom-checkbox"></label>
+         <label for="amenities_7">Charging Point</label>
+      </li>
+      <li class="checkbox">
+         <input type="checkbox" id="amenities_8" data-type="onward">
+         <label for="amenities_8" class="custom-checkbox"></label>
+         <label for="amenities_8">Movie</label>
+      </li>
+      <li class="checkbox">
+         <input type="checkbox" id="amenities_9" data-type="onward">
+         <label for="amenities_9" class="custom-checkbox"></label>
+         <label for="amenities_9">Reading Light</label>
+      </li>
+      <li class="checkbox">
+         <input type="checkbox" id="amenities_10" data-type="onward">
+         <label for="amenities_10" class="custom-checkbox"></label>
+         <label for="amenities_10">Pillow</label>
+      </li>
+      <li class="checkbox">
+         <input type="checkbox" id="amenities_15" data-type="onward">
+         <label for="amenities_15" class="custom-checkbox"></label>
+         <label for="amenities_15">Satellite</label>
+      </li>
+      <li class="checkbox">
+         <input type="checkbox" id="amenities_19" data-type="onward">
+         <label for="amenities_19" class="custom-checkbox"></label>
+         <label for="amenities_19">Track My Bus</label>
+      </li>
+      <li class="checkbox">
+         <input type="checkbox" id="amenities_22" data-type="onward">
+         <label for="amenities_22" class="custom-checkbox"></label>
+         <label for="amenities_22">Emergency exit</label>
+      </li>
+      <li class="checkbox">
+         <input type="checkbox" id="amenities_23" data-type="onward">
+         <label for="amenities_23" class="custom-checkbox"></label>
+         <label for="amenities_23">Fire Extinguisher</label>
+      </li>
+      <li class="checkbox">
+         <input type="checkbox" id="amenities_24" data-type="onward">
+         <label for="amenities_24" class="custom-checkbox"></label>
+         <label for="amenities_24">Hammer (to break glass)</label>
+      </li>
+      <li class="checkbox">
+         <input type="checkbox" id="amenities_27" data-type="onward">
+         <label for="amenities_27" class="custom-checkbox"></label>
+         <label for="amenities_27">Emergency Contact Number</label>
+      </li>
+      <li class="checkbox">
+         <input type="checkbox" id="amenities_30" data-type="onward">
+         <label for="amenities_30" class="custom-checkbox"></label>
+         <label for="amenities_30">Cup holder</label>
+      </li>
+   </ul>
+</div>
+
+
+<div class="col-md-2 col-sm-3 col-xs-6">
+
+	<div class="input-group">
+        <input type="text" class="form-control" placeholder="Boarding point" id="inputGroup"/>
+        <span class="input-group-addon input-group-addon1">
+        <i class="fa fa-search"></i>
+        </span>
+    </div>
+
+   <ul class="filterDetails-wrap1">
+      <li data-value="A S RAO NAGAR" class="checkbox">
+         <input type="checkbox" id="bpList_A-S-Rao-Nagar" data-type="onward">
+         <label for="bpList_A-S-Rao-Nagar" class="custom-checkbox"></label>
+         <label for="bpList_A-S-Rao-Nagar" title="A S Rao Nagar">A S Rao Nagar</label>
+      </li>
+      <li data-value="ASTALAXMI TEMPLE KAMAN" class="checkbox">
+         <input type="checkbox" id="bpList_ASTALAXMI-TEMPLE-KAMAN" data-type="onward">
+         <label for="bpList_ASTALAXMI-TEMPLE-KAMAN" class="custom-checkbox"></label>
+         <label for="bpList_ASTALAXMI-TEMPLE-KAMAN" title="ASTALAXMI TEMPLE KAMAN">ASTALAXMI TEMPLE KAMAN</label>
+      </li>
+      <li data-value="ALLWYN COLONY" class="checkbox">
+         <input type="checkbox" id="bpList_Allwyn-Colony" data-type="onward">
+         <label for="bpList_Allwyn-Colony" class="custom-checkbox"></label>
+         <label for="bpList_Allwyn-Colony" title="Allwyn Colony">Allwyn Colony</label>
+      </li>
+      <li data-value="AMEERPET" class="checkbox">
+         <input type="checkbox" id="bpList_Ameerpet" data-type="onward">
+         <label for="bpList_Ameerpet" class="custom-checkbox"></label>
+         <label for="bpList_Ameerpet" title="Ameerpet">Ameerpet</label>
+      </li>
+      <li data-value="ASHOK NAGAR" class="checkbox">
+         <input type="checkbox" id="bpList_Ashok-Nagar" data-type="onward">
+         <label for="bpList_Ashok-Nagar" class="custom-checkbox"></label>
+         <label for="bpList_Ashok-Nagar" title="Ashok Nagar">Ashok Nagar</label>
+      </li>
+      <li data-value="B.H.E.L" class="checkbox">
+         <input type="checkbox" id="bpList_B.H.E.L" data-type="onward">
+         <label for="bpList_B.H.E.L" class="custom-checkbox"></label>
+         <label for="bpList_B.H.E.L" title="B.H.E.L">B.H.E.L</label>
+      </li>
+      <li data-value="BACHUPALLY" class="checkbox">
+         <input type="checkbox" id="bpList_Bachupally" data-type="onward">
+         <label for="bpList_Bachupally" class="custom-checkbox"></label>
+         <label for="bpList_Bachupally" title="Bachupally">Bachupally</label>
+      </li>
+      <li data-value="BALANAGAR" class="checkbox">
+         <input type="checkbox" id="bpList_Balanagar" data-type="onward">
+         <label for="bpList_Balanagar" class="custom-checkbox"></label>
+         <label for="bpList_Balanagar" title="Balanagar">Balanagar</label>
+      </li>
+      <li data-value="BEERAMGUDA" class="checkbox">
+         <input type="checkbox" id="bpList_Beeramguda" data-type="onward">
+         <label for="bpList_Beeramguda" class="custom-checkbox"></label>
+         <label for="bpList_Beeramguda" title="Beeramguda">Beeramguda</label>
+      </li>
+      <li data-value="BHARAT NAGAR" class="checkbox">
+         <input type="checkbox" id="bpList_Bharat-Nagar" data-type="onward">
+         <label for="bpList_Bharat-Nagar" class="custom-checkbox"></label>
+         <label for="bpList_Bharat-Nagar" title="Bharat Nagar">Bharat Nagar</label>
+      </li>
+      <li data-value="CHANDANAGAR" class="checkbox">
+         <input type="checkbox" id="bpList_Chandanagar" data-type="onward">
+         <label for="bpList_Chandanagar" class="custom-checkbox"></label>
+         <label for="bpList_Chandanagar" title="Chandanagar">Chandanagar</label>
+      </li>
+      <li data-value="CHINTAL" class="checkbox">
+         <input type="checkbox" id="bpList_Chintal" data-type="onward">
+         <label for="bpList_Chintal" class="custom-checkbox"></label>
+         <label for="bpList_Chintal" title="Chintal">Chintal</label>
+      </li>
+      <li data-value="CHINTAL (PICKUP VAN/BUS)" class="checkbox">
+         <input type="checkbox" id="bpList_Chintal-(Pickup-Van/Bus)" data-type="onward">
+         <label for="bpList_Chintal-(Pickup-Van/Bus)" class="custom-checkbox"></label>
+         <label for="bpList_Chintal-(Pickup-Van/Bus)" title="Chintal (Pickup Van/Bus)">Chintal (Pickup Van/Bus)</label>
+      </li>
+      <li data-value="DILSUKHNAGAR" class="checkbox">
+         <input type="checkbox" id="bpList_Dilsukhnagar" data-type="onward">
+         <label for="bpList_Dilsukhnagar" class="custom-checkbox"></label>
+         <label for="bpList_Dilsukhnagar" title="Dilsukhnagar">Dilsukhnagar</label>
+      </li>
+      <li data-value="ECIL-KAPRA MCPL OFFCE" class="checkbox">
+         <input type="checkbox" id="bpList_ECIL-KAPRA-MCPL-OFFCE" data-type="onward">
+         <label for="bpList_ECIL-KAPRA-MCPL-OFFCE" class="custom-checkbox"></label>
+         <label for="bpList_ECIL-KAPRA-MCPL-OFFCE" title="ECIL-KAPRA MCPL OFFCE">ECIL-KAPRA MCPL OFFCE</label>
+      </li>
+      <li data-value="ESI" class="checkbox">
+         <input type="checkbox" id="bpList_ESI" data-type="onward">
+         <label for="bpList_ESI" class="custom-checkbox"></label>
+         <label for="bpList_ESI" title="ESI">ESI</label>
+      </li>
+      <li data-value="ERRAGADDA" class="checkbox">
+         <input type="checkbox" id="bpList_Erragadda" data-type="onward">
+         <label for="bpList_Erragadda" class="custom-checkbox"></label>
+         <label for="bpList_Erragadda" title="Erragadda">Erragadda</label>
+      </li>
+      <li data-value="GACHIBOWLI" class="checkbox">
+         <input type="checkbox" id="bpList_Gachibowli" data-type="onward">
+         <label for="bpList_Gachibowli" class="custom-checkbox"></label>
+         <label for="bpList_Gachibowli" title="Gachibowli">Gachibowli</label>
+      </li>
+      <li data-value="GANGARAM" class="checkbox">
+         <input type="checkbox" id="bpList_Gangaram" data-type="onward">
+         <label for="bpList_Gangaram" class="custom-checkbox"></label>
+         <label for="bpList_Gangaram" title="Gangaram">Gangaram</label>
+      </li>
+      <li data-value="H B COLONY" class="checkbox">
+         <input type="checkbox" id="bpList_H-B-Colony" data-type="onward">
+         <label for="bpList_H-B-Colony" class="custom-checkbox"></label>
+         <label for="bpList_H-B-Colony" title="H B Colony">H B Colony</label>
+      </li>
+      <li data-value="HMT NAGAR" class="checkbox">
+         <input type="checkbox" id="bpList_HMT-Nagar" data-type="onward">
+         <label for="bpList_HMT-Nagar" class="custom-checkbox"></label>
+         <label for="bpList_HMT-Nagar" title="HMT Nagar">HMT Nagar</label>
+      </li>
+      <li data-value="HABSIGUDA" class="checkbox">
+         <input type="checkbox" id="bpList_Habsiguda" data-type="onward">
+         <label for="bpList_Habsiguda" class="custom-checkbox"></label>
+         <label for="bpList_Habsiguda" title="Habsiguda">Habsiguda</label>
+      </li>
+      <li data-value="HAYATHNAGAR" class="checkbox">
+         <input type="checkbox" id="bpList_Hayathnagar" data-type="onward">
+         <label for="bpList_Hayathnagar" class="custom-checkbox"></label>
+         <label for="bpList_Hayathnagar" title="Hayathnagar">Hayathnagar</label>
+      </li>
+      <li data-value="HI-TECH CITY" class="checkbox">
+         <input type="checkbox" id="bpList_Hi-tech-city" data-type="onward">
+         <label for="bpList_Hi-tech-city" class="custom-checkbox"></label>
+         <label for="bpList_Hi-tech-city" title="Hi-tech city">Hi-tech city</label>
+      </li>
+      <li data-value="HYDERABAD" class="checkbox">
+         <input type="checkbox" id="bpList_Hyderabad" data-type="onward">
+         <label for="bpList_Hyderabad" class="custom-checkbox"></label>
+         <label for="bpList_Hyderabad" title="Hyderabad">Hyderabad</label>
+      </li>
+      <li data-value="HYDERNAGAR" class="checkbox">
+         <input type="checkbox" id="bpList_Hydernagar" data-type="onward">
+         <label for="bpList_Hydernagar" class="custom-checkbox"></label>
+         <label for="bpList_Hydernagar" title="Hydernagar">Hydernagar</label>
+      </li>
+      <li data-value="IDPL" class="checkbox">
+         <input type="checkbox" id="bpList_IDPL" data-type="onward">
+         <label for="bpList_IDPL" class="custom-checkbox"></label>
+         <label for="bpList_IDPL" title="IDPL">IDPL</label>
+      </li>
+      <li data-value="IDPL (PICKUP VAN/BUS)" class="checkbox">
+         <input type="checkbox" id="bpList_IDPL-(Pickup-Van/Bus)" data-type="onward">
+         <label for="bpList_IDPL-(Pickup-Van/Bus)" class="custom-checkbox"></label>
+         <label for="bpList_IDPL-(Pickup-Van/Bus)" title="IDPL (Pickup Van/Bus)">IDPL (Pickup Van/Bus)</label>
+      </li>
+      <li data-value="JNTU" class="checkbox">
+         <input type="checkbox" id="bpList_JNTU" data-type="onward">
+         <label for="bpList_JNTU" class="custom-checkbox"></label>
+         <label for="bpList_JNTU" title="JNTU">JNTU</label>
+      </li>
+      <li data-value="JEEDIMETLA" class="checkbox">
+         <input type="checkbox" id="bpList_Jeedimetla" data-type="onward">
+         <label for="bpList_Jeedimetla" class="custom-checkbox"></label>
+         <label for="bpList_Jeedimetla" title="Jeedimetla">Jeedimetla</label>
+      </li>
+      <li data-value="KKP VILLAGE" class="checkbox">
+         <input type="checkbox" id="bpList_KKP-VILLAGE" data-type="onward">
+         <label for="bpList_KKP-VILLAGE" class="custom-checkbox"></label>
+         <label for="bpList_KKP-VILLAGE" title="KKP VILLAGE">KKP VILLAGE</label>
+      </li>
+      <li data-value="KPHB COLONY" class="checkbox">
+         <input type="checkbox" id="bpList_KPHB-COLONY" data-type="onward">
+         <label for="bpList_KPHB-COLONY" class="custom-checkbox"></label>
+         <label for="bpList_KPHB-COLONY" title="KPHB COLONY">KPHB COLONY</label>
+      </li>
+      <li data-value="KUKATPALLY VILLAGE" class="checkbox">
+         <input type="checkbox" id="bpList_KUKATPALLY-VILLAGE" data-type="onward">
+         <label for="bpList_KUKATPALLY-VILLAGE" class="custom-checkbox"></label>
+         <label for="bpList_KUKATPALLY-VILLAGE" title="KUKATPALLY VILLAGE">KUKATPALLY VILLAGE</label>
+      </li>
+      <li data-value="KACHIGUDA" class="checkbox">
+         <input type="checkbox" id="bpList_Kachiguda" data-type="onward">
+         <label for="bpList_Kachiguda" class="custom-checkbox"></label>
+         <label for="bpList_Kachiguda" title="Kachiguda">Kachiguda</label>
+      </li>
+      <li data-value="KOMPALLY" class="checkbox">
+         <input type="checkbox" id="bpList_Kompally" data-type="onward">
+         <label for="bpList_Kompally" class="custom-checkbox"></label>
+         <label for="bpList_Kompally" title="Kompally">Kompally</label>
+      </li>
+      <li data-value="KONDAPUR" class="checkbox">
+         <input type="checkbox" id="bpList_Kondapur" data-type="onward">
+         <label for="bpList_Kondapur" class="custom-checkbox"></label>
+         <label for="bpList_Kondapur" title="Kondapur">Kondapur</label>
+      </li>
+      <li data-value="KOTHAPET" class="checkbox">
+         <input type="checkbox" id="bpList_Kothapet" data-type="onward">
+         <label for="bpList_Kothapet" class="custom-checkbox"></label>
+         <label for="bpList_Kothapet" title="Kothapet">Kothapet</label>
+      </li>
+      <li data-value="KOTI" class="checkbox">
+         <input type="checkbox" id="bpList_Koti" data-type="onward">
+         <label for="bpList_Koti" class="custom-checkbox"></label>
+         <label for="bpList_Koti" title="Koti">Koti</label>
+      </li>
+      <li data-value="L.B.NAGAR- OPP ORANGE HOSPITAL" class="checkbox">
+         <input type="checkbox" id="bpList_L.B.NAGAR--OPP-ORANGE-HOSPITAL" data-type="onward">
+         <label for="bpList_L.B.NAGAR--OPP-ORANGE-HOSPITAL" class="custom-checkbox"></label>
+         <label for="bpList_L.B.NAGAR--OPP-ORANGE-HOSPITAL" title="L.B.NAGAR- OPP ORANGE HOSPITAL">L.B.NAGAR- OPP ORANGE HOSPITAL</label>
+      </li>
+      <li data-value="LINGAMPALLY" class="checkbox">
+         <input type="checkbox" id="bpList_LINGAMPALLY" data-type="onward">
+         <label for="bpList_LINGAMPALLY" class="custom-checkbox"></label>
+         <label for="bpList_LINGAMPALLY" title="LINGAMPALLY">LINGAMPALLY</label>
+      </li>
+      <li data-value="LAKDIKAPOOL" class="checkbox">
+         <input type="checkbox" id="bpList_Lakdikapool" data-type="onward">
+         <label for="bpList_Lakdikapool" class="custom-checkbox"></label>
+         <label for="bpList_Lakdikapool" title="Lakdikapool">Lakdikapool</label>
+      </li>
+      <li data-value="MADHAPUR" class="checkbox">
+         <input type="checkbox" id="bpList_Madhapur" data-type="onward">
+         <label for="bpList_Madhapur" class="custom-checkbox"></label>
+         <label for="bpList_Madhapur" title="Madhapur">Madhapur</label>
+      </li>
+      <li data-value="MADINAGUDA" class="checkbox">
+         <input type="checkbox" id="bpList_Madinaguda" data-type="onward">
+         <label for="bpList_Madinaguda" class="custom-checkbox"></label>
+         <label for="bpList_Madinaguda" title="Madinaguda">Madinaguda</label>
+      </li>
+      <li data-value="MALAKPET" class="checkbox">
+         <input type="checkbox" id="bpList_Malakpet" data-type="onward">
+         <label for="bpList_Malakpet" class="custom-checkbox"></label>
+         <label for="bpList_Malakpet" title="Malakpet">Malakpet</label>
+      </li>
+      <li data-value="MIYAPUR" class="checkbox">
+         <input type="checkbox" id="bpList_Miyapur" data-type="onward">
+         <label for="bpList_Miyapur" class="custom-checkbox"></label>
+         <label for="bpList_Miyapur" title="Miyapur">Miyapur</label>
+      </li>
+      <li data-value="MOOSAPET" class="checkbox">
+         <input type="checkbox" id="bpList_Moosapet" data-type="onward">
+         <label for="bpList_Moosapet" class="custom-checkbox"></label>
+         <label for="bpList_Moosapet" title="Moosapet">Moosapet</label>
+      </li>
+      <li data-value="MOULALI" class="checkbox">
+         <input type="checkbox" id="bpList_Moulali" data-type="onward">
+         <label for="bpList_Moulali" class="custom-checkbox"></label>
+         <label for="bpList_Moulali" title="Moulali">Moulali</label>
+      </li>
+      <li data-value="NAMPALLY" class="checkbox">
+         <input type="checkbox" id="bpList_Nampally" data-type="onward">
+         <label for="bpList_Nampally" class="custom-checkbox"></label>
+         <label for="bpList_Nampally" title="Nampally">Nampally</label>
+      </li>
+      <li data-value="NARAYANAGUDA" class="checkbox">
+         <input type="checkbox" id="bpList_Narayanaguda" data-type="onward">
+         <label for="bpList_Narayanaguda" class="custom-checkbox"></label>
+         <label for="bpList_Narayanaguda" title="Narayanaguda">Narayanaguda</label>
+      </li>
+      <li data-value="NEREDMET" class="checkbox">
+         <input type="checkbox" id="bpList_Neredmet" data-type="onward">
+         <label for="bpList_Neredmet" class="custom-checkbox"></label>
+         <label for="bpList_Neredmet" title="Neredmet">Neredmet</label>
+      </li>
+      <li data-value="NIZAMPET" class="checkbox">
+         <input type="checkbox" id="bpList_Nizampet" data-type="onward">
+         <label for="bpList_Nizampet" class="custom-checkbox"></label>
+         <label for="bpList_Nizampet" title="Nizampet">Nizampet</label>
+      </li>
+      <li data-value="PANJAGUTTA" class="checkbox">
+         <input type="checkbox" id="bpList_Panjagutta" data-type="onward">
+         <label for="bpList_Panjagutta" class="custom-checkbox"></label>
+         <label for="bpList_Panjagutta" title="Panjagutta">Panjagutta</label>
+      </li>
+      <li data-value="PARADISE" class="checkbox">
+         <input type="checkbox" id="bpList_Paradise" data-type="onward">
+         <label for="bpList_Paradise" class="custom-checkbox"></label>
+         <label for="bpList_Paradise" title="Paradise">Paradise</label>
+      </li>
+      <li data-value="PUNJAGUTTA" class="checkbox">
+         <input type="checkbox" id="bpList_Punjagutta" data-type="onward">
+         <label for="bpList_Punjagutta" class="custom-checkbox"></label>
+         <label for="bpList_Punjagutta" title="Punjagutta">Punjagutta</label>
+      </li>
+      <li data-value="RC PURAM" class="checkbox">
+         <input type="checkbox" id="bpList_RC-Puram" data-type="onward">
+         <label for="bpList_RC-Puram" class="custom-checkbox"></label>
+         <label for="bpList_RC-Puram" title="RC Puram">RC Puram</label>
+      </li>
+      <li data-value="RTC X ROADS" class="checkbox">
+         <input type="checkbox" id="bpList_RTC-X-Roads" data-type="onward">
+         <label for="bpList_RTC-X-Roads" class="custom-checkbox"></label>
+         <label for="bpList_RTC-X-Roads" title="RTC X Roads">RTC X Roads</label>
+      </li>
+      <li data-value="RAILWAY STATION" class="checkbox">
+         <input type="checkbox" id="bpList_Railway-Station" data-type="onward">
+         <label for="bpList_Railway-Station" class="custom-checkbox"></label>
+         <label for="bpList_Railway-Station" title="Railway Station">Railway Station</label>
+      </li>
+      <li data-value="S.R.NAGAR" class="checkbox">
+         <input type="checkbox" id="bpList_S.R.NAGAR" data-type="onward">
+         <label for="bpList_S.R.NAGAR" class="custom-checkbox"></label>
+         <label for="bpList_S.R.NAGAR" title="S.R.NAGAR">S.R.NAGAR</label>
+      </li>
+      <li data-value="SHAIKPET DARGAH CITY BUS STOP" class="checkbox">
+         <input type="checkbox" id="bpList_SHAIKPET-DARGAH-CITY-BUS-STOP" data-type="onward">
+         <label for="bpList_SHAIKPET-DARGAH-CITY-BUS-STOP" class="custom-checkbox"></label>
+         <label for="bpList_SHAIKPET-DARGAH-CITY-BUS-STOP" title="SHAIKPET DARGAH CITY BUS STOP">SHAIKPET DARGAH CITY BUS STOP</label>
+      </li>
+      <li data-value="SECUNDERABAD" class="checkbox">
+         <input type="checkbox" id="bpList_Secunderabad" data-type="onward">
+         <label for="bpList_Secunderabad" class="custom-checkbox"></label>
+         <label for="bpList_Secunderabad" title="Secunderabad">Secunderabad</label>
+      </li>
+      <li data-value="SHAPOOR NAGAR" class="checkbox">
+         <input type="checkbox" id="bpList_Shapoor-Nagar" data-type="onward">
+         <label for="bpList_Shapoor-Nagar" class="custom-checkbox"></label>
+         <label for="bpList_Shapoor-Nagar" title="Shapoor Nagar">Shapoor Nagar</label>
+      </li>
+      <li data-value="SHAPUR" class="checkbox">
+         <input type="checkbox" id="bpList_Shapur" data-type="onward">
+         <label for="bpList_Shapur" class="custom-checkbox"></label>
+         <label for="bpList_Shapur" title="Shapur">Shapur</label>
+      </li>
+      <li data-value="SHAPUR (PICKUP VAN/BUS)" class="checkbox">
+         <input type="checkbox" id="bpList_Shapur-(Pickup-Van/Bus)" data-type="onward">
+         <label for="bpList_Shapur-(Pickup-Van/Bus)" class="custom-checkbox"></label>
+         <label for="bpList_Shapur-(Pickup-Van/Bus)" title="Shapur (Pickup Van/Bus)">Shapur (Pickup Van/Bus)</label>
+      </li>
+      <li data-value="SHIVAM" class="checkbox">
+         <input type="checkbox" id="bpList_Shivam" data-type="onward">
+         <label for="bpList_Shivam" class="custom-checkbox"></label>
+         <label for="bpList_Shivam" title="Shivam">Shivam</label>
+      </li>
+      <li data-value="SOMAJIGUDA" class="checkbox">
+         <input type="checkbox" id="bpList_Somajiguda" data-type="onward">
+         <label for="bpList_Somajiguda" class="custom-checkbox"></label>
+         <label for="bpList_Somajiguda" title="Somajiguda">Somajiguda</label>
+      </li>
+      <li data-value="SRINIVASA COLONY" class="checkbox">
+         <input type="checkbox" id="bpList_Srinivasa-Colony" data-type="onward">
+         <label for="bpList_Srinivasa-Colony" class="custom-checkbox"></label>
+         <label for="bpList_Srinivasa-Colony" title="Srinivasa Colony">Srinivasa Colony</label>
+      </li>
+      <li data-value="SUCHITRA" class="checkbox">
+         <input type="checkbox" id="bpList_Suchitra" data-type="onward">
+         <label for="bpList_Suchitra" class="custom-checkbox"></label>
+         <label for="bpList_Suchitra" title="Suchitra">Suchitra</label>
+      </li>
+      <li data-value="SURARAM" class="checkbox">
+         <input type="checkbox" id="bpList_Suraram" data-type="onward">
+         <label for="bpList_Suraram" class="custom-checkbox"></label>
+         <label for="bpList_Suraram" title="Suraram">Suraram</label>
+      </li>
+      <li data-value="SURARAM (PICKUP VAN/BUS)" class="checkbox">
+         <input type="checkbox" id="bpList_Suraram-(Pickup-Van/Bus)" data-type="onward">
+         <label for="bpList_Suraram-(Pickup-Van/Bus)" class="custom-checkbox"></label>
+         <label for="bpList_Suraram-(Pickup-Van/Bus)" title="Suraram (Pickup Van/Bus)">Suraram (Pickup Van/Bus)</label>
+      </li>
+      <li data-value="TARNAKA" class="checkbox">
+         <input type="checkbox" id="bpList_Tarnaka" data-type="onward">
+         <label for="bpList_Tarnaka" class="custom-checkbox"></label>
+         <label for="bpList_Tarnaka" title="Tarnaka">Tarnaka</label>
+      </li>
+      <li data-value="UPPAL" class="checkbox">
+         <input type="checkbox" id="bpList_Uppal" data-type="onward">
+         <label for="bpList_Uppal" class="custom-checkbox"></label>
+         <label for="bpList_Uppal" title="Uppal">Uppal</label>
+      </li>
+      <li data-value="VANASTHALIPURAM" class="checkbox">
+         <input type="checkbox" id="bpList_Vanasthalipuram" data-type="onward">
+         <label for="bpList_Vanasthalipuram" class="custom-checkbox"></label>
+         <label for="bpList_Vanasthalipuram" title="Vanasthalipuram">Vanasthalipuram</label>
+      </li>
+   </ul>
+</div>
+
+<div class="col-md-2 col-sm-3 col-xs-6">
+	
+   	<div class="input-group">
+        <input type="text" class="form-control" placeholder="Droping point" id="inputGroup"/>
+        <span class="input-group-addon input-group-addon1">
+        <i class="fa fa-search"></i>
+        </span>
+    </div>
+   <ul class="filterDetails-wrap1">
+      <li data-value="BOSE ROAD" class="checkbox">
+         <input type="checkbox" id="dpList_Bose-Road" data-type="onward">
+         <label for="dpList_Bose-Road" class="custom-checkbox"></label>
+         <label for="dpList_Bose-Road" title="Bose Road">Bose Road</label>
+      </li>
+      <li data-value="SAI BABA TEMPLE" class="checkbox">
+         <input type="checkbox" id="dpList_Sai-Baba-Temple" data-type="onward">
+         <label for="dpList_Sai-Baba-Temple" class="custom-checkbox"></label>
+         <label for="dpList_Sai-Baba-Temple" title="Sai Baba Temple">Sai Baba Temple</label>
+      </li>
+      <li data-value="TENALI" class="checkbox">
+         <input type="checkbox" id="dpList_TENALI" data-type="onward">
+         <label for="dpList_TENALI" class="custom-checkbox"></label>
+         <label for="dpList_TENALI" title="TENALI">TENALI</label>
+      </li>
+      <li data-value="TENALI" class="checkbox">
+         <input type="checkbox" id="dpList_Tenali" data-type="onward">
+         <label for="dpList_Tenali" class="custom-checkbox"></label>
+         <label for="dpList_Tenali" title="Tenali">Tenali</label>
+      </li>
+   </ul>
+</div>
+<div class="col-md-12 col-sm-12 col-xs-12 reset-padding">
+   <div class=" col-md-6 col-sm-6 col-xs-8 col-md-offset-5 col-sm-offset-4 col-xs-offset-2">
+      <button onclick="reset()" class="btn btn-primary reset-btn">Reset All</button>&nbsp;&nbsp;&nbsp;<button class="btn btn-primary reset-btn" id="search-done">Done</button>
+   </div>
+</div>
+</div>
+</div>	
+</div>	
+</form>			
+</div>				
 		</div>
 	</div>
 <!--Buses Lisy-->	
@@ -191,10 +798,694 @@
 				<div class="col-md-2 col-sm-3 col-xs-6">
 					<div class="col-md-12">
 						<p class="bus-list-title1">INR 500</p>
-						<div class="btn-search-buses"><button class="btn button-1 pull-right">View Seats</button></div>
+						<div class="btn-search-buses"><button id="view-seats"class="btn button-1 pull-right">View Seats</button></div>
 					</div>
 				</div>
 			</div>
+			<div class="row">
+			<div class="container-fluid">
+		<div class="col-md-12 viewseats1" hidden>
+		<div class="col-md-8 col-sm-12">
+		<section>
+			<div class="seatContainer table-responsive">
+								<table>
+									<td style="vertical-align: top; padding: 20px 25px 0px 5px; padding-top: 20px;" rowspan="5"><img src="images/steering.png"></td>
+										<td>
+											<span>
+												<label>
+													<div>
+														<img Onclick="function()" class="v-seatSelection"  src=" images/select-seat.png"></span></td>
+													</div>
+												</label>
+											</span>
+										</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<tr>
+										<td>
+											<span>
+												<label>
+													<div>
+														<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+													</div>
+												</label>
+											</span>
+										</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<tr>
+										<td>
+											<span>
+												<label>
+													<span style="position: relative;margin-left: 5px; -webkit-transform: rotate(275deg); top: 2px; display: inline-block; left: 20%"></span>
+												</label>
+											</span>
+										</td>
+									<td>
+										<span>
+											<label>
+												<span style="position: relative; margin-left: 5px; -webkit-transform: rotate(275deg); top: 2px; display: inline-block; left: 20%"></span>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<span style="position: relative;margin-left: 5px; -webkit-transform: rotate(275deg); top: 2px; display: inline-block; left: 20%"></span>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<span style="position: relative;margin-left: 5px; -webkit-transform: rotate(275deg); top: 2px; display: inline-block; left: 20%"></span>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<span style="position: relative;margin-left: 5px; -webkit-transform: rotate(275deg); top: 2px; display: inline-block; left: 20%"></span>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<span style="position: relative;margin-left: 5px; -webkit-transform: rotate(275deg); top: 2px; display: inline-block; left: 20%"></span>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<span style="position: relative;margin-left: 5px; -webkit-transform: rotate(275deg); top: 2px; display: inline-block; left: 20%"></span>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<span style="position: relative;margin-left: 5px; -webkit-transform: rotate(275deg); top: 2px; display: inline-block; left: 20%"></span>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<span style="position: relative;margin-left: 5px; -webkit-transform: rotate(275deg); top: 2px; display: inline-block; left: 20%"></span>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<span style="position: relative;margin-left: 5px; -webkit-transform: rotate(275deg); top: 2px; display: inline-block; left: 20%"></span>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<span style="position: relative;margin-left: 5px; -webkit-transform: rotate(275deg); top: 2px; display: inline-block; left: 20%"></span>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<span style="position: relative;-webkit-transform: rotate(275deg); top: 2px; display: inline-block; left: 20%"></span>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<tr>
+										<td>
+											<span>
+												<label>
+													<div>
+														<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+													</div>
+												</label>
+											</span>
+										</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									</tr>
+									<tr>
+										<td>
+											<span>
+												<label>
+													<div>
+														<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+													</div>
+												</label>
+											</span>
+										</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src=" images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									<td>
+										<span>
+											<label>
+												<div>
+													<img class="v-seatSelection" src="images/select-seat.png"></span></td>	
+												</div>
+											</label>
+										</span>
+									</td>
+									</tr>
+								</table>
+				
+			</div>
+		</section>
+		</div>
+			<div class="col-md-4  col-sm-12">
+			<div class="col-md-12 col-sm-12 mt1">
+				<div class="col-md-5">
+				<p class="bus-booking">Boarding At</p> 
+				</div>
+				<div class="col-md-1">
+				<p class="text-right"> : </p>
+				</div>
+				<div class="col-md-5 mt">
+					<section>
+						<select class="busbook-opt">
+						<option value="" disabled selected>Select Droping Point</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						</select>
+					</section>
+				</div>
+			</div>
+			<div class="col-md-12 mt1">
+				<div class="col-md-5">
+				<p class="bus-booking">Drop Off</p>
+				</div>
+				<div class="col-md-1">
+				<p class="text-right"> : </p>
+				</div>
+				<div class="col-md-5 mt">
+					<section>
+						<select class="busbook-opt">
+						<option value="" disabled selected>Select Boarding Point</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						</select>
+					</section>
+				</div>
+			</div>
+			<div class="col-md-12 mt1">
+				<div class="col-md-5">
+				<p class="bus-booking text-left">No.of Seat(s)</p>
+				</div>
+				<div class="col-md-1">
+				<p class="text-right"> : </p>
+				</div>
+				<div class="col-md-4">
+				<p class="bus-booking">1 </p>
+				</div>
+			</div>
+			<div class="col-md-12 mt1">
+				<div class="col-md-5">
+				<p class="bus-booking">Base Fare</p>
+				</div>
+				<div class="col-md-1">
+				<p class="text-right"> : </p>
+				</div>
+				<div class="col-md-5">
+				<p class="bus-booking">500</p>
+				</div>
+			</div>
+			<div class="col-md-12 mt1">
+				<div class="col-md-5">
+				<p class="bus-booking">Discount</p>
+				</div>
+				<div class="col-md-1">
+				<p class="text-right"> : </p>
+				</div>
+				<div class="col-md-5">
+				<p class="bus-booking">10%</p>
+				</div>
+			</div>
+			<div class="col-md-12 mt1">
+				<div class="col-md-5">
+				<p class="bus-booking">Service Tax</p>
+				</div>
+				<div class="col-md-1">
+				<p class="text-right"> : </p>
+				</div>
+				<div class="col-md-5">
+				<p class="bus-booking">2%</p>
+				</div>
+			</div>
+			<div class="col-md-12 mt1">
+				<div class="col-md-5">
+				<p class="bus-booking">Net Total</p>
+				</div>
+				<div class="col-md-1">
+				<p class="text-right"> : </p>
+				</div>
+				<div class="col-md-5">
+				<span class="bus-booking">520</span>
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="col-md-4">
+					<a href="book-ticket.html"><button class="btn btn-primary"> Continue</button></a>
+				</div>
+			</div>
+		</div>
+		</div>
+
+		</div>
+		</div>
 		</div>
 		<div class="row bus-search-row">
 			<div class="col-md-12">
@@ -366,19 +1657,9 @@
 					</div>
 				</div>
 			</div>
-		</div>	
-
+		
 	</div>				
-
-			
-			
-			
-			
-			
-			
-			
-			
-			
+</div>	
 			<div class="spacer"></div>
 			<div id="footer">
 				<div class="container">
@@ -547,9 +1828,70 @@
 	<script src="js/main.js"></script>
 	 <script src="../src/jquery.bootstrap-autohidingnavbar.js"></script>
 	 <script>
-      $("div.navbar-fixed-top").autoHidingNavbar();
-    </script>
-   
+		
+		$("#filter-data").click(function(){
+			$(".filter-details").toggle();
+		});
+		$("#search-done").click(function(){
+			$(".filter-details").hide();
+		});
+		$("#view-seats").click(function(){
+			$(".viewseats1").toggle();
+		});
+	 </script>
+	<script>
+		function reset() {
+			document.getElementById("myForm").reset();
+		}
+	</script>
+	<script>
+		function myFunction() {
+			document.getElementById(".v-seatSelection").src = "../images/seat.png";
+		}
+	</script>
+<style>
+.reset-padding{padding-bottom:10px;}
+.reset-btn{padding:6px;}
+.input-group-addon1{
+    padding: 4px 5px !important;
+  }
+#onward_filterDetails, #return_filterDetails {
+    position: initial;
+    background-color: #eeeded;
+    -ms-box-shadow: 0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.2);
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.2);
+    color: #000;
+    top: 269px;
+    padding-top: 52px !important;
+}
+
+.filterDetails-wrap1 {
+	max-height: 200px;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+.filter-amen, .filter-bustype, .filter-time {
+    padding-left: 20px;
+}
+.filter-header {
+    padding: 10px 5px;
+    font-weight: 500;
+    color: #000;
+    text-transform: uppercase;
+}
+ .checkbox label {
+    min-height: 20px;
+    padding-left: 0px !important;
+    margin-bottom: 0;
+    font-weight: normal;
+    cursor: pointer;
+	font-size: 12px;
+	max-width: 94%;
+}
+.filter-bustype, .filter-time {
+    padding-left: 20px;
+}
+</style>
 	</body>
 </html>
 
