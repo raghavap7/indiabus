@@ -39,33 +39,10 @@
 	<link rel="stylesheet" href="css/fa/css/font-awesome.min.css">
 	<link href="css/login-register.css" rel="stylesheet" />
 	<!-- Modernizr JS -->
-	 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMLuYT97ITy2oqh4L_TEC4SCRwXhkFcYM&callback=initMap"  type="text/javascript"></script>
-	<script>
-	  function initialize() {
-		var mapCanvas = document.getElementById('map1');
-		var myLatlng = new google.maps.LatLng(17.403859, 78.470466);
-
-		var mapOptions = {
-		  center: myLatlng,
-		  zoom:16,
-		  mapTypeId: google.maps.MapTypeId.ROADMAP
-		}
-
-		var map = new google.maps.Map(document.getElementById('map1'), mapOptions);
-
-		var marker = new google.maps.Marker({
-		  position: myLatlng,
-		  map: map,
-		  title: 'LCCEurotex'
-		});
-
-	  }
-	  google.maps.event.addDomListener(window, 'load', initialize);
-	</script>
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<script src="js/login-register.js" type="text/javascript"></script>
 	<script src="js/jquery-1.10.2.js" type="text/javascript"></script>
-	
+
 	</head>
 	<body>
 		<div id="fh5co-wrapper">
@@ -85,9 +62,9 @@
 				<ul class="nav-align pull-right">
 					<li><a href="index.html"><i class="fa fa-home"></i>Bus Tickets</a></li>
 					<li><a href="PrintSmsTicket.html"><i class="fa fa-mobile" ></i>Print/Sms Ticket</a></li>
-					<li><a href="CancelTicket.html"><i class="fa fa-ticket" aria-hidden="true"></i>Cancel Ticket</a></li>
+					<li class="active"><a href="CancelTicket.html"><i class="fa fa-ticket" aria-hidden="true"></i>Cancel Ticket</a></li>
 					<li class="sub-menu">
-						<li class="active"><a href="ContactUs.html"><i class="fa fa-address-book" aria-hidden="true"></i>Contact &nbsp;&nbsp;<i class="fa fa-angle-down"></i></a>
+						<li><a href="ContactUs.html"><i class="fa fa-address-book" aria-hidden="true"></i>Contact &nbsp;&nbsp;<i class="fa fa-angle-down"></i></a>
 						<!-- children nav -->
 						<ul class="children">
 								<li><a href="#"><i class="fa fa-mobile" aria-hidden="true"></i>+91 7658941111 </a></li>
@@ -109,76 +86,196 @@
 				</div>
 	</header> <!-- header end -->
 		<div class="spacer"></div>
-	
-		<div class="container">
-				<div class="row">
-					<div class="col-md-6">
-						<div class="well well-sm">
-							<form class="form-horizontal" method="post">
-								<fieldset>
-									<legend class="text-center header contactus1"><b>Contact us</b></legend>
-									<div class="form-group" id="from-place">
-										<div class="col-md-10 col-md-offset-1">
-											<input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
-										</div>
-									</div>
-									<div class="form-group" id="from-place">
-										<div class="col-md-10 col-md-offset-1">
-											<input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
-										</div>
-									</div>
-
-									<div class="form-group" id="from-place">
-										<div class="col-md-10 col-md-offset-1">
-											<input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
-										</div>
-									</div>
-
-									<div class="form-group" id="from-place">
-										<div class="col-md-10 col-md-offset-1">
-											<input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
-										</div>
-									</div>
-
-									<div class="form-group" id="from-place">
-										<div class="col-md-10 col-md-offset-1">
-											<textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here. We will get back to you within 2 business days." rows="7"></textarea>
-										</div>
-									</div>
-
-									<div class="form-group" id="from-place">
-										<div class="col-md-12 text-center">
-											<button type="submit" class="btn btn-primary btn-lg">Submit</button>
-										</div>
-									</div>
-								</fieldset>
-							</form>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div>
-							<div class="panel panel-default">
-								<div class="text-center header contactus1"><b>Our Office</b></div>
-								<div class="panel-body text-center">
-									<p class="address"><b>India Bus,</b></p>
-									<p class="address">Plot # 255, Level2,</p>
-									<p class="address"> Adarsh Nagar, Hyderabad.</p>
-									<p class="address">Telangana-500063</p>
-									<hr />
-									<div id="map1" class="map">
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+			 <!--main content start--> 
+  <div class="container">
+	<div class="row well">
+		<div class="col-md-12 text-center"><h3 class="head-color-page"><b><a href="popular-routes.html">Bus directory</a></b></h3></div>
+		<div class="col-md-12 pagination-padding">
+			<div class="pagination text-center">
+			  <a href="popular-routesPage1.html" class="active">1</a>
+			  <a href="#">2</a>
+			  <a href="#">3</a>
+			  <a href="#">4</a>
+			  <a href="#">5</a>
+			  <a href="#">6</a>
+			  <a href="#">7</a>
+			  <a href="#">8</a>
+			  <a href="#">9</a>
+			  <a href="#">10</a>
+			  <a href="#">11</a>
+			  <a href="#">12</a>
+			  <a href="#">13</a>
+			  <a href="#">14</a>
+			  <a href="#">15</a>
+			  <a href="#">16</a>
+			  <a href="#">17</a>
+			  <a href="#">18</a>
+			  <a href="#">19</a>
+			  <a href="#">20</a>
+			  <a href="#">11</a>
+			  <a href="#">12</a>
+			  <a href="#">13</a>
+			  <a href="#">14</a>
+			  <a href="#">15</a>
+			  <a href="#">16</a>
+			  <a href="#">17</a>
+			  <a href="#">18</a>
+			  <a href="#">19</a>
+			  <a href="#">20</a>
+			  <a href="#">31</a>
+			  <a href="#">32</a>
+			  <a href="#">33</a>
+			  <a href="#">34</a>
+			  <a href="#">35</a>
+			  <a href="#">36</a>
+			  <a href="#">37</a>
+			  <a href="#">38</a>
+			  <a href="#">39</a>
+			  <a href="#">40</a>
+			  <a href="#">41</a>
+			  <a href="#">42</a>
+			  <a href="#">43</a>
+			  <a href="#">44</a>
+			  <a href="#">45</a>
+			  <a href="#">46</a>
+			  <a href="#">47</a>
+			  <a href="#">48</a>
+			  <a href="#">49</a>
+			  <a href="#">50</a>
+			  <a href="#">51</a>
+			  <a href="#">52</a>
+			  <a href="#">53</a>
+			  <a href="#">54</a>
+			  <a href="#">55</a>
+			  <a href="#">56</a>
+			  <a href="#">57</a>
+			  <a href="#">58</a>
+			  <a href="#">59</a>
+			  <a href="#">60</a>
+			  <a href="#">61</a>
+			  <a href="#">62</a>
+			  <a href="#">63</a>
+			  <a href="#">64</a>
+			  <a href="#">65</a>
+			  <a href="#">66</a>
+			  <a href="#">67</a>
+			  <a href="#">68</a>
+			  <a href="#">69</a>
+			  <a href="#">70</a>
+			  <a href="#">71</a>
+			  <a href="#">72</a>
+			  <a href="#">73</a>
+			  <a href="#">74</a>
+			  <a href="#">75</a>
+			  <a href="#">76</a>
+			  <a href="#">77</a>
+			  <a href="#">78</a>
+			  <a href="#">79</a>
+			  <a href="#">80</a>
+			  <a href="#">81</a>
+			  <a href="#">82</a>
+			  <a href="#">83</a>
+			  <a href="#">84</a>
+			  <a href="#">85</a>
+			  <a href="#">86</a>
+			  <a href="#">87</a>
+			  <a href="#">88</a>
+			  <a href="#">89</a>
+			  <a href="#">90</a>
+			  <a href="#">91</a>
+			  <a href="#">92</a>
+			  <a href="#">93</a>
+			  <a href="#">94</a>
+			  <a href="#">95</a>
+			  <a href="#">96</a>
+			  <a href="#">97</a>
+			  <a href="#">98</a>
+			  <a href="#">99</a>
+			  <a href="#">100</a>
+			  <a href="#">101</a>
+			  <a href="#">102</a>
+			  <a href="#">103</a>
+			  <a href="#">104</a>
+			  <a href="#">105</a>
+			  <a href="#">106</a>
+			  <a href="#">107</a>
+			  <a href="#">108</a>
+			  <a href="#">109</a>
+			  <a href="#">110</a>
+			  <a href="#">111</a>
+			  <a href="#">112</a>
+			  <a href="#">113</a>
+			  <a href="#">114</a>
+			  <a href="#">115</a>
+			  <a href="#">116</a>
+			  <a href="#">117</a>
+			  <a href="#">118</a>
+			  <a href="#">119</a>
+			  <a href="#">120</a>
+			  <a href="#">121</a>
+			  <a href="#">122</a>
+			  <a href="#">123</a>
+			  <a href="#">124</a>
 			</div>
-
-
-
-	
-
-		<div class="spacer"></div>
+		</div>
+	</div>
+  </div>
+  <div class="container">
+	<div class="row well">
+		<div class="col-md-12">
+			<div class="col-md-3 text-left">
+					<span class="routes-list"><a href="#">A.S.Peta directory</a></span><br/>
+					<span class="routes-list"><a href="#">Aamaran directory</a></span><br/>
+					<span class="routes-list"><a href="#">Aavanam Kaikaati directory</a></span><br/>
+					<span class="routes-list"><a href="#">Abohar directory</a></span><br/>
+					<span class="routes-list"><a href="#">Achanta directory</a></span><br/>
+					<span class="routes-list"><a href="#">Addapara directory</a></span><br/>
+					<span class="routes-list"><a href="#">Adilabad directory</a></span><br/>
+					<span class="routes-list"><a href="#">Adivaram directory</a></span><br/>
+					<span class="routes-list"><a href="#">Adul directory</a></span><br/>
+					<span class="routes-list"><a href="#">Agar directory</a></span><br/>
+			</div>
+			<div class="col-md-3">
+					<span class="routes-list"><a href="#">Aachara directory</a></span><br/>
+					<span class="routes-list"><a href="#">Aaspur directory</a></span><br/>
+					<span class="routes-list"><a href="#">Abhyathamangala directory</a></span><br/>
+					<span class="routes-list"><a href="#">Abu Darshan directory</a></span><br/>
+					<span class="routes-list"><a href="#">Adani Power directory</a></span><br/>
+					<span class="routes-list"><a href="#">Addaroddu directory</a></span><br/>
+					<span class="routes-list"><a href="#">Adimali directory</a></span><br/>
+					<span class="routes-list"><a href="#">Adoni directory</a></span><br/>
+					<span class="routes-list"><a href="#">Adur(Karnataka) directory</a></span><br/>
+					<span class="routes-list"><a href="#">Agariya(Gujarat) directory</a></span><br/>
+			</div>
+			<div class="col-md-3">
+					<span class="routes-list"><a href="#">Aadesar(Gujrat) directory</a></span><br/>
+					<span class="routes-list"><a href="#">Aathankarai directory</a></span><br/>
+					<span class="routes-list"><a href="#">Abiramam directory</a></span><br/>
+					<span class="routes-list"><a href="#">Abu Road directory</a></span><br/>
+					<span class="routes-list"><a href="#">Adda Road directory</a></span><br/>					
+					<span class="routes-list"><a href="#">Addu directory</a></span><br/>
+					<span class="routes-list"><a href="#">Adipur directory</a></span><br/>
+					<span class="routes-list"><a href="#">Adoor directory</a></span><br/>
+					<span class="routes-list"><a href="#">Aduthurai directory</a></span><br/>
+					<span class="routes-list"><a href="#">Agarthala directory</a></span><br/>
+			</div>
+			<div class="col-md-3">
+					<span class="routes-list"><a href="#">Aadsar directory</a></span><br/>
+					<span class="routes-list"><a href="#">Aatoor directory</a></span><br/>
+					<span class="routes-list"><a href="#">Abloli directory</a></span><br/>
+					<span class="routes-list"><a href="#">Achampet directory</a></span><br/>
+					<span class="routes-list"><a href="#">Addanki directory</a></span><br/>
+					<span class="routes-list"><a href="#">Adichunchanagiri directory</a></span><br/>
+					<span class="routes-list"><a href="#">Adirampattinam directory</a></span><br/>
+					<span class="routes-list"><a href="#">Adsul directory</a></span><br/>
+					<span class="routes-list"><a href="#">Afzalpur directory</a></span><br/>
+					<span class="routes-list"><a href="#">Agatrai directory</a></span><br/>
+			</div>
+		</div>
+	</div>
+  </div>
+  <!--main content start-->
+		
 <footer>
 			<div id="footer">
 				<div class="container">
@@ -206,7 +303,7 @@
 								<li><a href="#">Vijayawdawda</a></li>
 								<li><a href="#">Banglore</a></li>
 								<li><a href="#">Chennai</a></li>
-								<li><a href="popular-routes.html">More..</a></li>
+								<li><a href="#">More..</a></li>
 							</ul></span>
 						</div>
 						<div class="col-md-2 col-sm-2 col-xs-6 fh5co-footer-link">
@@ -348,10 +445,7 @@
 	 <script>
       $("div.navbar-fixed-top").autoHidingNavbar();
     </script>
-	
-
-
-
+   
 	</body>
 </html>
 

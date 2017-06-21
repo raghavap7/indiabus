@@ -104,6 +104,64 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
+				<div class="col-md-6">
+					<div class="col-md-12">
+						<div class="col-md-12 payment-body">
+							<div class="col-md-12 payment-body3">
+								<p class="payment-details-header">Enter passenger details</p>
+							</div>
+							 <form>
+								<div class="form-group col-md-6">
+								  <label for="usr">First Name:</label>
+								  <input type="text" class="form-control" id="usr">
+								</div>
+								<div class="form-group col-md-6">
+								  <label for="usr">Last Name:</label>
+								  <input type="text" class="form-control" id="usr">
+								</div>
+								<div class="form-group col-md-6">
+								  <label for="pwd">Age:</label>
+								  <input type="password" class="form-control" id="pwd">
+								</div>
+								<div class="form-group col-md-6">
+								  <label for="pwd">Gender:</label><br/>
+									<input type="radio" name="optradio" style="height:20px;width:25px;"><span class="gender-select">Male</span>
+									<input type="radio" name="optradio" style="height:20px;width:25px;"><span class="gender-select">Female</span>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+				<div class="col-md-12">
+					<div class="col-md-12 payment-body">
+						<div class="col-md-12 payment-body3">
+							<p class="payment-details-header">Enter Contact details</p>
+						</div>
+						 <form>
+							<div class="form-group col-md-12">
+							  <label for="usr">Email address</label>
+							  <input type="text" class="form-control" id="usr">
+							</div>
+							<div class="form-group col-md-6">
+							  <label for="pwd">Mobile Number</label>
+							  <input type="password" class="form-control" id="pwd">
+							</div>
+							<div class="form-group col-md-6">
+							  <label for="pwd">Alternate Number:</label>
+							  <input type="password" class="form-control" id="pwd">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+		<div class="spacer"></div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
 				<div class="col-md-8">
 					<div class="col-md-12">
 						<div class="col-md-12 payment-body">
@@ -129,186 +187,151 @@
 					<div class="col-md-12">
 						<div class="col-md-12 payment-body">
 							 <div class="tabbable tabs-left">
-								<ul class="nav nav-tabs">
+								<ul class="nav nav-tabs col-md-4">
 								  <li class="active"><a href="#a" data-toggle="tab"><i class="fa fa-credit-card" aria-hidden="true">&nbsp;&nbsp;</i>Saved Card</a></li>
 								  <li><a href="#b" data-toggle="tab"><i class="fa fa-credit-card" aria-hidden="true">&nbsp;&nbsp;</i>Credit Card</a></li>
 								  <li><a href="#c" data-toggle="tab"><i class="fa fa-credit-card" aria-hidden="true">&nbsp;&nbsp;</i>Debit Card</a></li>
 								  <li><a href="#d" data-toggle="tab"><i class="fa fa-id-card" aria-hidden="true">&nbsp;&nbsp;</i>Net Banking</a></li>
 								  <li><a href="#e" data-toggle="tab"><img class="Wallet" src="images/Wallet.png"/>Wallets</a></li>
 								</ul>
-								<div class="tab-content">
-								 <div class="tab-pane active" id="a">Lorem ipsum dolor sit amet, charetra varius quam sit amet vulputate. 
-								 Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero.</div>
-								 <div class="tab-pane" id="b">
-									<div class="container">
-											<div class="row">
-												<!-- You can make it whatever width you want. I'm making it full width
-													 on <= small devices and 4/12 page width on >= medium devices -->
-												<div class="col-xs-12 col-md-5">
-													<!-- CREDIT CARD FORM STARTS HERE -->
-													<div class="credit-card-box">
-														<div class="">
-															<form role="form" id="payment-form" method="POST" action="javascript:void(0);">
-																<div class="row">
-																	<div class="col-xs-12">
-																		<div class="form-group">
-																			<label for="cardNumber">CARD NUMBER</label>
-																			<div class="input-group">
-																				<input type="tel" class="form-control" name="cardNumber" placeholder="Valid Card Number" autocomplete="cc-number" required autofocus/>
-																				<span class="input-group-addon">                           
-																						<img class="cards-input" src="images/master-card.png">
-																						<img class="cards-input" src="images/visa-card.png">
-																						<img class="cards-input" src="images/maestro-card.png">
-																					</span>
-																			</div>
-																		</div>                            
-																	</div>
-																</div>
-																<div class="row">
-																	<div class="col-xs-7 col-md-7">
-																		<div class="form-group">
-																			<label for="cardExpiry"><span class="hidden-xs">EXPIRATION</span><span class="visible-xs-inline">EXP</span> DATE</label>
-																			<input 
-																				type="tel" 
-																				class="form-control" 
-																				name="cardExpiry"
-																				placeholder="MM / YY"
-																				autocomplete="cc-exp"
-																				required 
-																			/>
-																		</div>
-																	</div>
-																	<div class="col-xs-5 col-md-5 pull-right">
-																		<div class="form-group">
-																			<label for="cardCVC">CV CODE</label>
-																			<input 
-																				type="tel" 
-																				class="form-control"
-																				name="cardCVC"
-																				placeholder="CVC"
-																				autocomplete="cc-csc"
-																				required
-																			/>
-																		</div>
-																	</div>
-																</div>
-																<div class="row">
-																	<div class="col-xs-12">
-																		<div class="form-group">
-																			<label for="couponCode">Name On Card</label>
-																			<input type="text" class="form-control" name="NameOnCard" />
-																		</div>
-																	</div>                        
-																</div>
-																<div class="row">
-																	<div class="col-md-4">
-																		<button class="subscribe btn btn-primary" type="button">Pay 560</button>
-																	</div>
-																	<div class="col-md-8 pull-right nopadding-right">
-																		<img class="paye-details" src="images/master_card1.png">
-																		<img class="paye-details" src="images/visa-verified.png">
-																		<img class="paye-details" src="images/veri_sign.png">
-																		<img class="paye-details" src="images/american_express.png">
-																	</div>
-																</div>
-																<div class="row" style="display:none;">
-																	<div class="col-xs-12">
-																		<p class="payment-errors"></p>
-																	</div>
-																</div>
-															</form>
-														</div>
-													</div>            
-													<!-- CREDIT CARD FORM ENDS HERE -->
-												</div>            
-											 </div>
+								<div class="tab-content tab-content1 col-md-7 nopadding">
+								 <div class="tab-pane active" id="a">
+									<div class="row">
+										<div class="col-md-12 payment-body nopadding-left">
+											<div class="col-md-4 nopadding">
+												<input type="radio" name="optradio" style="height:18px;width:25px;position:absolute;"/><span class="saved-card saved-card1">524508XXXXXX9388</span>
+											</div>
+											<div class="col-md-4 text-center ">	
+												<span class="saved-card">Exp</span>&nbsp;:&nbsp;<span class="saved-card">02/2018</span>
+											</div>
+											<div class="col-md-2 text-center nopadding-right">
+												<input type="text" class="form-control fcontrol1" placeholder="C V V" id="Cvv">					
+											</div>
+											<div class="col-md-2 text-center nopadding">
+												<img class="logobanl-mg" src="images/SBI-logo.png"/>					
+											</div>
 										</div>
+										<div class="col-md-12 payment-body nopadding-left">
+											<div class="col-md-4 nopadding">
+												<input type="radio" name="optradio" style="height:18px;width:25px;position:absolute;"/><span class="saved-card saved-card1">834213XXXXXX6558</span>
+											</div>
+											<div class="col-md-4 text-center ">
+												<span class="saved-card">Exp</span>&nbsp;:&nbsp;<span class="saved-card">06/2022</span>
+											</div>
+											<div class="col-md-2 text-center nopadding-right">
+												<input type="text" class="form-control fcontrol1" placeholder="C V V" id="Cvv">					
+											</div>
+											<div class="col-md-2 text-center nopadding">
+												<img class="logobanl-mg" src="images/SBI-logo.png"/>					
+											</div>
+										</div>
+										<div class="col-md-12 text-right nopadding-right">
+											<button class="subscribe btn btn-primary" type="button">Pay 560</button>
+										</div>
+									</div>
 
 								 </div>
-								 <div class="tab-pane" id="c">
-									<div class="container">
-											<div class="row">
-												<!-- You can make it whatever width you want. I'm making it full width
-													 on <= small devices and 4/12 page width on >= medium devices -->
-												<div class="col-xs-12 col-md-5">
-													<!-- CREDIT CARD FORM STARTS HERE -->
-													<div class="credit-card-box">
-														<div class="">
-															<form role="form" id="payment-form" method="POST" action="javascript:void(0);">
-																<div class="row">
-																	<div class="col-xs-12">
-																		<div class="form-group">
-																			<label for="cardNumber">CARD NUMBER</label>
-																			<div class="input-group">
-																				<input type="tel" class="form-control" name="cardNumber" placeholder="Valid Card Number" autocomplete="cc-number" required autofocus/>
-																				<span class="input-group-addon">                           
-																						<img class="cards-input" src="images/master-card.png">
-																						<img class="cards-input" src="images/visa-card.png">
-																						<img class="cards-input" src="images/maestro-card.png">
-																					</span>
-																			</div>
-																		</div>                            
-																	</div>
-																</div>
-																<div class="row">
-																	<div class="col-xs-7 col-md-7">
-																		<div class="form-group">
-																			<label for="cardExpiry"><span class="hidden-xs">EXPIRATION</span><span class="visible-xs-inline">EXP</span> DATE</label>
-																			<input 
-																				type="tel" 
-																				class="form-control" 
-																				name="cardExpiry"
-																				placeholder="MM / YY"
-																				autocomplete="cc-exp"
-																				required 
-																			/>
-																		</div>
-																	</div>
-																	<div class="col-xs-5 col-md-5 pull-right">
-																		<div class="form-group">
-																			<label for="cardCVC">CV CODE</label>
-																			<input 
-																				type="tel" 
-																				class="form-control"
-																				name="cardCVC"
-																				placeholder="CVC"
-																				autocomplete="cc-csc"
-																				required
-																			/>
-																		</div>
-																	</div>
-																</div>
-																<div class="row">
-																	<div class="col-xs-12">
-																		<div class="form-group">
-																			<label for="couponCode">Name On Card</label>
-																			<input type="text" class="form-control" name="NameOnCard" />
-																		</div>
-																	</div>                        
-																</div>
-																<div class="row">
-																	<div class="col-md-4">
-																		<button class="subscribe btn btn-primary" type="button">Pay 560</button>
-																	</div>
-																	<div class="col-md-8 pull-right nopadding-right">
-																		<img class="paye-details" src="images/master_card1.png">
-																		<img class="paye-details" src="images/visa-verified.png">
-																		<img class="paye-details" src="images/veri_sign.png">
-																		<img class="paye-details" src="images/american_express.png">
-																	</div>
-																</div>
-																<div class="row" style="display:none;">
-																	<div class="col-xs-12">
-																		<p class="payment-errors"></p>
-																	</div>
-																</div>
-															</form>
+								 <div class="tab-pane" id="b">
+												<div class="col-xs-12 col-md-12 nopadding">
+													<div class="col-xs-12 col-md-12 nopadding">
+														<div class="form-group">
+															<label for="cardNumber">CARD NUMBER</label>
+															<div class="input-group">
+																<input type="tel" class="form-control" name="cardNumber" placeholder="Valid Card Number" autocomplete="cc-number" required autofocus/>
+																<span class="input-group-addon">                           
+																	<img class="cards-input" src="images/master-card.png">
+																	<img class="cards-input" src="images/visa-card.png">
+																	<img class="cards-input" src="images/maestro-card.png">
+																</span>
+															</div>
+														</div>                            
+													</div>
+													<div class="col-md-12 nopadding">
+														<div class="col-md-7 nopadding">
+															<div class="form-group">
+																<label for="cardExpiry"><span class="hidden-xs">EXPIRATION</span><span class="visible-xs-inline">EXP</span> DATE</label>
+																<input type="tel" class="form-control" name="cardExpiry" placeholder="MM / YY" autocomplete="cc-exp" required />
+															</div>
 														</div>
-													</div>            
-													<!-- CREDIT CARD FORM ENDS HERE -->
+														<div class="col-md-5 pull-right nopadding-right">
+															<div class="form-group">
+																<label for="cardCVC">CV CODE</label>
+																<input type="tel" class="form-control" name="cardCVC" placeholder="CVC" autocomplete="cc-csc" required />
+															</div>
+														</div>
+													</div>
+														<div class="col-md-12 nopadding">
+															<div class="form-group">
+																<label for="couponCode">Name On Card</label>
+																<input type="text" class="form-control" name="NameOnCard" />
+															</div>
+														</div>                        
+														<div class="col-md-4">
+															<button class="subscribe btn btn-primary" type="button">Pay 560</button>
+														</div>
+														<div class="col-md-8 pull-right nopadding-right">
+															<img class="paye-details" src="images/master_card1.png">
+															<img class="paye-details" src="images/visa-verified.png">
+															<img class="paye-details" src="images/veri_sign.png">
+															<img class="paye-details" src="images/american_express.png">
+														</div>
+													<div class="row" style="display:none;">
+														<div class="col-xs-12">
+															<p class="payment-errors"></p>
+														</div>
+													</div>
 												</div>            
-											 </div>
-										</div>
+											</div>
+								 <div class="tab-pane" id="c">
+									<div class="col-xs-12 col-md-12 nopadding">
+													<div class="col-xs-12 col-md-12 nopadding">
+														<div class="form-group">
+															<label for="cardNumber">CARD NUMBER</label>
+															<div class="input-group">
+																<input type="tel" class="form-control" name="cardNumber" placeholder="Valid Card Number" autocomplete="cc-number" required autofocus/>
+																<span class="input-group-addon">                           
+																	<img class="cards-input" src="images/master-card.png">
+																	<img class="cards-input" src="images/visa-card.png">
+																	<img class="cards-input" src="images/maestro-card.png">
+																</span>
+															</div>
+														</div>                            
+													</div>
+													<div class="col-md-12 nopadding">
+														<div class="col-md-7 nopadding">
+															<div class="form-group">
+																<label for="cardExpiry"><span class="hidden-xs">EXPIRATION</span><span class="visible-xs-inline">EXP</span> DATE</label>
+																<input type="tel" class="form-control" name="cardExpiry" placeholder="MM / YY" autocomplete="cc-exp" required />
+															</div>
+														</div>
+														<div class="col-md-5 pull-right nopadding-right">
+															<div class="form-group">
+																<label for="cardCVC">CV CODE</label>
+																<input type="tel" class="form-control" name="cardCVC" placeholder="CVC" autocomplete="cc-csc" required />
+															</div>
+														</div>
+													</div>
+														<div class="col-md-12 nopadding">
+															<div class="form-group">
+																<label for="couponCode">Name On Card</label>
+																<input type="text" class="form-control" name="NameOnCard" />
+															</div>
+														</div>                        
+														<div class="col-md-4">
+															<button class="subscribe btn btn-primary" type="button">Pay 560</button>
+														</div>
+														<div class="col-md-8 pull-right nopadding-right">
+															<img class="paye-details" src="images/master_card1.png">
+															<img class="paye-details" src="images/visa-verified.png">
+															<img class="paye-details" src="images/veri_sign.png">
+															<img class="paye-details" src="images/american_express.png">
+														</div>
+													<div class="row" style="display:none;">
+														<div class="col-xs-12">
+															<p class="payment-errors"></p>
+														</div>
+													</div>
+												</div>
 								 </div>
 								<div class="tab-pane" id="d">Thirdamuno, ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
 								 Quisque mauris augue, molestie tincidunt condimentum vitae. </div>
@@ -319,17 +342,84 @@
 						</div>
 					</div>
 				</div>
-				
+				<div class="col-md-4 nopadding">
+					<div class="col-md-12 payment-body">
+						<div class="col-md-12 paye-details2">
+							<div class="col-md-6">
+								<span class="paye-details1"><b>Morning Star Travels - (A/C Gold Class (2+2))</b></span>
+							</div>
+							<div class="col-md-6">
+								<span class="paye-details1"><b>DEPARTURE TIME
+								<br />21-Jun-2017 22:05</b></span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 payment-body">
+							<div class="col-md-6">
+								<span class="paye-details1"><b>Name:</b>(name)</span>
+							</div>
+							<div class="col-md-6">
+								<span class="paye-details1"><b>Seat No:</b>3d</span>
+							</div>
+						</div>
+					<div class="col-md-12 payment-body">
+						<div class="col-md-12">
+							<div class="col-md-6">
+								<span class="paye-details1 pull-left"><b>FARE BREAK UP</b></span>
+							</div>
+							<div class="col-md-6">
+								<span class="paye-details1 pull-right"><b><a href="#">View Summary</a></span>
+							</div>
+						</div>
 
-
-				<div class="col-md-4">
-					
+						<div class="col-md-12">
+							<div class="col-md-12">
+								<p class="paye-details1"><strong>ONWARD FARE</strong></p>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="col-md-6">
+								<span class="paye-details1 pull-left"><b>Base Fare</b></span>
+							</div>
+							<div class="col-md-6">
+								<span class="paye-details1 pull-right"><b><a href="#">INR 550</a></span>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="col-md-6">
+								<span class="paye-details1 pull-left"><b>Service Tax</b></span>
+							</div>
+							<div class="col-md-6">
+								<span class="paye-details1 pull-right"><b><a href="#">INR 33</a></span>
+							</div>
+						</div>	
+						<div class="col-md-12">
+							<div class="col-md-6">
+								<span class="paye-details1 pull-left"><b>Service Charge</b></span>
+							</div>
+							<div class="col-md-6">
+								<span class="paye-details1 pull-right"><b><a href="#">INR 8</a></span>
+							</div>
+						</div>	
+						
+					</div>
+					<div class="col-md-12 payment-body1">
+							<div class="col-md-6">
+								<span class="paye-details1 pull-left"><b>TOTAL PAYABLE</b></span>
+							</div>
+							<div class="col-md-6">
+								<span class="paye-details1 pull-right"><b><a href="#"> INR 591</a></span>
+							</div>
+						</div>	
+						</div>
+					</div
 				</div>
 			</div>
 		</div>
 	</div>
 
 			<div class="spacer"></div>
+<footer>
 			<div id="footer">
 				<div class="container">
 					<div class="row row-bottom-padded-md">
@@ -340,7 +430,6 @@
 								<li><a href="#">Indiabus Booking info</a></li>
 								<li><a href="#">Terms & Conditions</a></li>
 								<li><a href="#">Privacy Policy</a></li>
-								<li><a href="#">New York buss</a></li>
 							</ul>
 						</div>
 						<div class="col-md-4 col-sm-4 col-xs-6 fh5co-footer-link">
@@ -357,7 +446,7 @@
 								<li><a href="#">Vijayawdawda</a></li>
 								<li><a href="#">Banglore</a></li>
 								<li><a href="#">Chennai</a></li>
-								<li><a href="#">Mumbai</a></li>
+								<li><a href="popular-routes.html">More..</a></li>
 							</ul></span>
 						</div>
 						<div class="col-md-2 col-sm-2 col-xs-6 fh5co-footer-link">
@@ -495,7 +584,9 @@
 	<script src="js/selectFx.js"></script>
 	<!-- Main JS -->
 	<script src="js/main.js"></script>
-
+	<style>
+	
+	</style>
 	</body>
 </html>
 

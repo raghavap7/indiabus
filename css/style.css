@@ -2392,33 +2392,22 @@ label span{
 }
 .cupontext {
     border: none !important;
-	border-bottom: 1px solid !important;
+	border-bottom: 1px solid #ccc !important;
     border-radius: 0px !important;
 }
-
-
+.paye-details1{font-size:15px;padding-bottom:5px;margin-bottom: 0px !important;}
+.payment-body1{
+	background-color: #E0FEDE;
+    padding: 10px 0;
+    box-shadow: 0 1px 8px #ccc;
+    margin-bottom: 10px;
+}
 /* CSS for Credit Card Payment form */
 .credit-card-box .panel-title {
     display: inline;
     font-weight: bold;
 }
-.credit-card-box .form-control.error {
-    border-color: red;
-    outline: 0;
-    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(255,0,0,0.6);
-}
-.credit-card-box label.error {
-  font-weight: bold;
-  color: red;
-  padding: 2px 8px;
-  margin-top: 2px;
-}
-.credit-card-box .payment-errors {
-  font-weight: bold;
-  color: red;
-  padding: 2px 8px;
-  margin-top: 2px;
-}
+
 .credit-card-box label {
     display: block;
 }
@@ -2439,11 +2428,69 @@ label span{
     min-width: 180px;
 }
 .paye-details{
-	    height: 25px;
+	    height: 22px;
 }
 .cards-input{
 		height: 18px;
 }
+.gender-select{margin: 14px 0px !important;}
+.payment-details-header {
+    background: #F78536 !important;
+    padding: 12px 0px !important;
+    font-size: 18px !important;
+    text-align: center !important;
+    font-weight: bold !important;
+    color: #fff !important;
+	margin-bottom:0px !important;
+}
+.payment-body3{padding-bottom:14px;}
+.gender-select{font-size: 22px;}
+.fcontrol1 {
+    height: 26px !important;
+    text-align: center;
+	padding:0px !important;
+}
+.logobanl-mg{height:20px;width:20px;}
+.saved-card{font-size:14px;}
+.saved-card1{padding-left:22px;}
+.tab-content1{padding:5px 10px !important;}
+.pagination {display: inline-block;margin:0px !important;color:#337ab7 !important;}
+
+.pagination a {
+	padding:0px 2px !important;
+	text-decoration: none !important;
+	transition: background-color .7s !important;
+	margin: 2px 0px !important;
+	font-weight: 500 !important;
+	color:#337ab7 !important;
+	font-size: 15px;
+}
+.routes-list a {
+	padding:0px 4px !important;
+	text-decoration: none !important;
+	transition: background-color .7s !important;
+	margin: 2px 2px !important;
+	color:#337ab7 !important;
+	font-size:14px !important;
+	font-weight: 500;
+}
+.routes-list{margin-bottom:10px;!important;}
+.pagination a.active {
+	background-color:#00AD7C! important;
+	color: white !important;
+	border: 1px solid #00AD7C !important;
+}
+.pagination a:hover{
+	background-color: #00AD7C !important;
+	color: white !important;
+	border: 1px solid #00AD7C!important;
+}
+.routes-list a:hover {
+	color: #000080 !important;
+}
+.pagination-padding{padding:0px !important;}
+.head-color-page{color: #F78536 !important;margin-bottom:10px;}
+.head-color-page a{text-decoration:none;color: #F78536;transition: background-color .7s;}
 /*Media Screens Start*//*Media Screens Start*//*Media Screens Start*//*Media Screens Start*/
 /*Media Screens Start*//*Media Screens Start*//*Media Screens Start*//*Media Screens Start*/
 /*Media Screens Start*//*Media Screens Start*//*Media Screens Start*//*Media Screens Start*/
