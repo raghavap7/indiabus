@@ -50,31 +50,31 @@
 		<!-- responsive nav bar -->
 		<div class="container-fluid">
 		<div class="nav-bar">
-			<a href="index.html"><i class="fa fa-bars"></i><img src="images/logo.png" class="nav-brand"/></a>
+			<a href="Agent-index .html"><i class="fa fa-bars"></i><img src="images/logo.png" class="nav-brand"/></a>
 		</div>	
 		<nav>
-			<ul class="hidden-xs hidden-sm"><li><a href="index.html"><img src="images/logo.png" class="nav-brand"/></a></li></ul>
+			<ul class="hidden-xs hidden-sm"><li><a href="Agent-index.html"><img src="images/logo.png" class="nav-brand"/></a></li></ul>
 			<ul class="nav-align pull-right">
-				<li><a href="index.html"><i class="fa fa-home"></i>Bus Tickets</a></li>
-				<li class="active"><a href="PrintSmsTicket.html"><i class="fa fa-mobile" ></i>Print/Sms Ticket</a></li>
-				<li><a href="CancelTicket.html"><i class="fa fa-ticket" aria-hidden="true"></i>Cancel Ticket</a></li>
+				<li><a href="Agent-index.html"><i class="fa fa-home"></i>Bus Tickets</a></li>
+				<li class="active"><a href="AgentPrintSmsTicket.html"><i class="fa fa-mobile" ></i>Print/Sms Ticket</a></li>
+				<li><a href="AgentCancelTicket.html"><i class="fa fa-ticket" aria-hidden="true"></i>Cancel Ticket</a></li>
 				<li class="sub-menu">
 				<li>
-					<a href="ContactUs.html"><i class="fa fa-address-book" aria-hidden="true"></i>Contact &nbsp;&nbsp;<i class="fa fa-angle-down"></i></a>
+					<a href="AgentContactUs.html"><i class="fa fa-address-book" aria-hidden="true"></i>Contact &nbsp;&nbsp;<i class="fa fa-angle-down"></i></a>
 						<!-- children nav -->
 					<ul class="children">
 						<li><a href="#"><i class="fa fa-mobile" aria-hidden="true"></i>+91 7658941111 </a></li>
 						<li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i>+91 40-23296666 </a></li>
-						<li><a href="ContactUs.html"><i class="fa fa-envelope" aria-hidden="true"></i>Contact Us</a></li>
+						<li><a href="AgentContactUs.html"><i class="fa fa-envelope" aria-hidden="true"></i>Contact Us</a></li>
 					</ul>
 				</li>
-				<li class="sub-menu"><a href="#"><i class="fa fa-user-circle-o user-log"></i>User &nbsp;&nbsp;<i class="fa fa-angle-down"></i></a>
-					<ul class="children">
-						<li><a href="user-profile.html">My Profile</a></li>
-						<li><a href="user-profile.html">Booking History</a></li>
-						<li><a href="user-profile.html">Notifications</a></li>
-						<li><a href="user-profile.html">Change Password</a></li>
-						<li><a href="user-profile.html">Add Passenger</a></li>
+				<li class="sub-menu active"><a href="Agent-profile.html"><i class="fa fa-ticket" aria-hidden="true"></i>Agent Profile</a>
+				<ul class="children">
+						<li><a href="Agent-profile.html">My Profile</a></li>
+						<li><a href="Agent-profile.html">Booking History</a></li>
+						<li><a href="Agent-profile.html">Notifications</a></li>
+						<li><a href="Agent-profile.html">Change Password</a></li>
+						<li><a href="Agent-profile.html">Add Passenger</a></li>
 					</ul>
 				</li>
 				</ul>
@@ -86,9 +86,9 @@
 		
 	<div class="spacer1"></div>
 	<div class="container">
-		<div class="row">
+		<div class="row print-box">
 			<div class="col-md-12">
-				<div class="col-md-8 col-md-offset-2 print-box">
+				<div class="col-md-8 col-md-offset-2">
 					<div class="col-md-12">
 						<h3 class="text-center">Print / SMS / E-Mail Ticket<h3>
 						<h5 class="text-center">Please enter your ticket number below<h5>
@@ -108,7 +108,12 @@
 						  </div>
 						</form>
 						</div>
-						<div class="col-md-12">
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="col-md-12">
 						<form>
 						<div class="radio col-md-6">
 							  <label><input type="radio" name="optradio"><p>PRINT TICKET</p> </label>
@@ -120,7 +125,6 @@
 						</div>
 						</form>
 						<div class="col-md-12 text-center"><button id="search-tickets" class="btn btn-primary"><b>Submit</b></button></div>
-					</div>
 					</div>
 				</div>
 			</div>

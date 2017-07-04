@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-    <html class="no-js">
+    <html class="no-js" xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -45,47 +45,46 @@
 
 	</head>
 	<body>
-		<div id="fh5co-wrapper">
-		<div id="fh5co-page">
 		<!-- header starts -->
 		<header>
 		<!-- responsive nav bar -->
-		<div class="container">
+		<div class="container-fluid">
 		<div class="nav-bar">
 			<a href="index.html"><i class="fa fa-bars"></i><img src="images/logo.png" class="nav-brand"/></a>
-		</div>
-		
+		</div>	
 		<nav>
-		
-				<ul class="hidden-xs hidden-sm"><li><a href="index.html"><img src="images/logo.png" class="nav-brand"/></a></li></ul>
-
-				<ul class="nav-align pull-right">
-					<li><a href="index.html"><i class="fa fa-home"></i>Bus Tickets</a></li>
-					<li><a href="PrintSmsTicket.html"><i class="fa fa-mobile" ></i>Print/Sms Ticket</a></li>
-					<li class="active"><a href="CancelTicket.html"><i class="fa fa-ticket" aria-hidden="true"></i>Cancel Ticket</a></li>
-					<li class="sub-menu">
-						<li><a href="ContactUs.html"><i class="fa fa-address-book" aria-hidden="true"></i>Contact &nbsp;&nbsp;<i class="fa fa-angle-down"></i></a>
+			<ul class="hidden-xs hidden-sm"><li><a href="index.html"><img src="images/logo.png" class="nav-brand"/></a></li></ul>
+			<ul class="nav-align pull-right">
+				<li class="active"><a href="index.html"><i class="fa fa-home"></i>Bus Tickets</a></li>
+				<li><a href="PrintSmsTicket.html"><i class="fa fa-mobile" ></i>Print/Sms Ticket</a></li>
+				<li><a href="CancelTicket.html"><i class="fa fa-ticket" aria-hidden="true"></i>Cancel Ticket</a></li>
+				<li class="sub-menu">
+				<li>
+					<a href="ContactUs.html"><i class="fa fa-address-book" aria-hidden="true"></i>Contact &nbsp;&nbsp;<i class="fa fa-angle-down"></i></a>
 						<!-- children nav -->
-						<ul class="children">
-								<li><a href="#"><i class="fa fa-mobile" aria-hidden="true"></i>+91 7658941111 </a></li>
-								<li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i>+91 40-23296666 </a></li>
-								<li><a href="ContactUs.html"><i class="fa fa-envelope" aria-hidden="true"></i>Contact Us</a></li>
-						</ul>
-						</li>
-						<li class="sub-menu"><a href="#"><i class="fa fa-user-circle-o user-log"></i>User &nbsp;&nbsp;<i class="fa fa-angle-down"></i></a>
-
-							<ul class="children">
-									<li><a class="big-login" data-toggle="modal" href="javascript:void(0)" onclick="openLoginModal();"><i class="fa fa-sign-in" aria-hidden="true"></i>Sign In</a></li>
-									<li><a class="big-register" data-toggle="modal" href="javascript:void(0)" onclick="openRegisterModal();"><i class="fa fa-sign-out"></i>Sign Up</a></li>
-							</ul>
-
-					</li>
-					
+					<ul class="children">
+						<li><a href="#"><i class="fa fa-mobile" aria-hidden="true"></i>+91 7658941111 </a></li>
+						<li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i>+91 40-23296666 </a></li>
+						<li><a href="ContactUs.html"><i class="fa fa-envelope" aria-hidden="true"></i>Contact Us</a></li>
+					</ul>
+				</li>
+				<li class="sub-menu"><a href="#"><i class="fa fa-user-circle-o user-log"></i>User &nbsp;&nbsp;<i class="fa fa-angle-down"></i></a>
+					<ul class="children">
+						<li><a href="user-profile.html">My Profile</a></li>
+						<li><a href="user-profile.html">Booking History</a></li>
+						<li><a href="user-profile.html">Notifications</a></li>
+						<li><a href="user-profile.html">Change Password</a></li>
+						<li><a href="user-profile.html">Add Passenger</a></li>
+					</ul>
+				</li>
 				</ul>
 		</nav> <!-- navigation end -->
 				</div>
 	</header> <!-- header end -->
-		<div class="spacer"></div>
+		<div id="fh5co-wrapper">
+		<div id="fh5co-page">
+		
+		<div class="spacer1"></div>
 	  <div class="container">
 	<div class="row well">
 		<div class="col-md-12 text-center"><h3 class="head-color-page"><b><a href="popular-routes.html">Bus directory</a></b></h3></div>
@@ -419,7 +418,7 @@
                                 <input id="email" class="form-control" type="text" placeholder="Email" name="email">
                                 <input id="password" class="form-control" type="password" placeholder="Password" name="password">
                                 <input id="password_confirmation" class="form-control" type="password" placeholder="Repeat Password" name="password_confirmation">
-                                <input class="btn btn-default btn-register" type="submit" value="Create account" name="commit">
+                                <input class="btn btn-default btn-register" type="button" value="Register" onclick="loginAjax()">
                                 </form>
                                 </div>
                             </div>
