@@ -1,20 +1,23 @@
 <!DOCTYPE html>
-    <html class="no-js">
-	<head>
+<html class="no-js">
+
+<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>IndiaBus</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Online bus tickets booking  Bus tickets travel reservation: Bangalore, Chennai, Hyderabad, Mumbai, Pune, Goa tickets. indiabus.com - an online bus ticket reservation" />
-	<meta name="keywords" content="online bus tickets booking, bus tickets booking mumbai, bangalore bus tickets, chennai bus tickets" />
+	<meta name="description" content="Online bus tickets booking  Bus tickets travel reservation: Bangalore, Chennai, Hyderabad, Mumbai, Pune, Goa tickets. indiabus.com - an online bus ticket reservation"
+	/>
+	<meta name="keywords" content="online bus tickets booking, bus tickets booking mumbai, bangalore bus tickets, chennai bus tickets"
+	/>
 	<meta name="author" content="Firstzen" />
 	<link rel="icon" href="images/favicon.png">
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
+	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:description" content="" />
 	<meta name="twitter:title" content="" />
 	<meta name="twitter:image" content="" />
 	<meta name="twitter:url" content="" />
@@ -46,383 +49,391 @@
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.payment/1.2.3/jquery.payment.min.js"></script>
 	<script type="text/javascript" src="js/creditcard-validation.js"></script>
 
-	</head>
-	<body>
-		<!-- header starts -->
-		<header>
+</head>
+
+<body>
+	<!-- header starts -->
+	<header>
 		<!-- responsive nav bar -->
 		<div class="container-fluid">
-		<div class="nav-bar">
-			<a href="index.html"><i class="fa fa-bars"></i><img src="images/logo.png" class="nav-brand"/></a>
-		</div>	
-		<nav>
-			<ul class="hidden-xs hidden-sm"><li><a href="index.html"><img src="images/logo.png" class="nav-brand"/></a></li></ul>
-			<ul class="nav-align pull-right">
-				<li  class="active"><a href="index.html"><i class="fa fa-home"></i>Bus Tickets</a></li>
-				<li><a href="PrintSmsTicket.html"><i class="fa fa-mobile" ></i>Print/Sms Ticket</a></li>
-				<li><a href="CancelTicket.html"><i class="fa fa-ticket" aria-hidden="true"></i>Cancel Ticket</a></li>
-				<li class="sub-menu">
-				<li>
-					<a href="ContactUs.html"><i class="fa fa-address-book" aria-hidden="true"></i>Contact &nbsp;&nbsp;<i class="fa fa-angle-down"></i></a>
-						<!-- children nav -->
-					<ul class="children">
-						<li><a href="#"><i class="fa fa-mobile" aria-hidden="true"></i>+91 7658941111 </a></li>
-						<li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i>+91 40-23296666 </a></li>
-						<li><a href="ContactUs.html"><i class="fa fa-envelope" aria-hidden="true"></i>Contact Us</a></li>
-					</ul>
-				</li>
-				<li class="sub-menu"><a href="#"><i class="fa fa-user-circle-o user-log"></i>User &nbsp;&nbsp;<i class="fa fa-angle-down"></i></a>
-					<ul class="children">
-						<li><a href="user-profile.html">My Profile</a></li>
-						<li><a href="user-profile.html">Booking History</a></li>
-						<li><a href="user-profile.html">Notifications</a></li>
-						<li><a href="user-profile.html">Change Password</a></li>
-						<li><a href="user-profile.html">Add Passenger</a></li>
-					</ul>
-				</li>
-				  
+			<div class="nav-bar">
+				<a href="index.html"><i class="fa fa-bars"></i><img src="images/logo.png" class="nav-brand"/></a>
+			</div>
+			<nav>
+				<ul class="hidden-xs hidden-sm">
+					<li><a href="index.html"><img src="images/logo.png" class="nav-brand"/></a></li>
 				</ul>
-		</nav> <!-- navigation end -->
-				</div>
-	</header> <!-- header end -->
-		<div id="fh5co-wrapper">
-		<div id="fh5co-page">
-		<div class="spacer1"></div>
-		
-	<div class="container-fluid clearfix ">
-		<div class="row">
-			<div class="col-md-12 payment-head">
-				<div class="col-md-7 text-right timer">
-					<span>Hyderabad &nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;   Tenali</span><span>&nbsp;&nbsp;20-Jun-2017</span>
-				</div>
-				<div class="col-md-4 text-right timer">
-					<span><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;&nbsp;<span>5:29</span> minutes left</span>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="spacer"></div>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="col-md-6">
-					<div class="col-md-12">
-						<div class="col-md-12 payment-body">
-							<div class="col-md-12 payment-body3">
-								<p class="payment-details-header">Enter passenger details</p>
-							</div>
-							 <form>
-								<div class="form-group col-md-6">
-								  <label class="label-align"for="usr">First Name:</label>
-								  <input type="text" class="form-control Form-padding" id="usr">
-								</div>
-								<div class="form-group col-md-6">
-								  <label class="label-align"for="usr">Last Name:</label>
-								  <input type="text" class="form-control Form-padding" id="usr">
-								</div>
-								<div class="form-group col-md-6">
-								  <label class="label-align"for="pwd">Age:</label>
-								  <input type="password" class="form-control Form-padding" id="pwd">
-								</div>
-								<div class="form-group col-md-6">
-								  <label class="label-align"for="pwd">Gender:</label><br/>
-									<input type="radio" name="optradio" style="height:16px;width:25px;"><span class="gender-select">Male</span>
-									<input type="radio" name="optradio" style="height:16px;width:25px;"><span class="gender-select">Female</span>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6">
-				<div class="col-md-12">
-					<div class="col-md-12 payment-body">
-						<div class="col-md-12 payment-body3">
-							<p class="payment-details-header">Enter Contact details</p>
-						</div>
-						 <form>
-							<div class="form-group col-md-12">
-							  <label class="label-align"for="usr">Email address</label>
-							  <input type="text" class="form-control Form-padding" id="usr">
-							</div>
-							<div class="form-group col-md-6">
-							  <label class="label-align"for="pwd">Mobile Number</label>
-							  <input type="password" class="form-control Form-padding" id="pwd">
-							</div>
-							<div class="form-group col-md-6">
-							  <label class="label-align"for="pwd">Alternate Number:</label>
-							  <input type="password" class="form-control Form-padding" id="pwd">
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	</div>
-		<div class="spacer"></div>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="col-md-8">
-					<div class="col-md-12">
-						<div class="col-md-12 payment-body">
-							<div class="col-md-6 cupon-code">
-								<label class="label-align"class="cupon-code" for="roundedOne">I have an offer code</label>
-							</div>
-							 <div class="col-md-6 fieldwrapper cuponid">
-								<input id="cupon" type="text" class="form-control Form-padding" name="cupon" placeholder="Enter Code">
-								<button class="btn btn-xs btn-primary"><b>Apply</b></button>
-							  </div>
-						</div>
-					</div>
-					<div class="col-md-12">
-						<div class="col-md-12 payment-body">
-							<div class="col-md-6">
-									<label class="label-align"class="cupon-code" for="check">IndiaBus Wallet</label>
-							</div>
-							 <div class="col-md-6 text-right">
-								<span>Current Balance is INR 0</span>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-12">
-						<div class="col-md-12 payment-body">
-							 <div class="tabbable tabs-left">
-								<ul class="nav nav-tabs col-md-4">
-								  <li class="active"><a href="#a" data-toggle="tab"><i class="fa fa-credit-card" aria-hidden="true">&nbsp;&nbsp;</i>Saved Card</a></li>
-								  <li><a href="#b" data-toggle="tab"><i class="fa fa-credit-card" aria-hidden="true">&nbsp;&nbsp;</i>Credit Card</a></li>
-								  <li><a href="#c" data-toggle="tab"><i class="fa fa-credit-card" aria-hidden="true">&nbsp;&nbsp;</i>Debit Card</a></li>
-								  <li><a href="#d" data-toggle="tab"><i class="fa fa-id-card" aria-hidden="true">&nbsp;&nbsp;</i>Net Banking</a></li>
-								  <li><a href="#e" data-toggle="tab"><img class="Wallet" src="images/Wallet.png"/>Wallets</a></li>
-								</ul>
-								<div class="tab-content tab-content1 col-md-7 nopadding">
-								 <div class="tab-pane active" id="a">
-									<div class="row">
-										<div class="col-md-12 payment-body nopadding-left">
-											<div class="col-md-4 nopadding">
-												<input type="radio" name="optradio" style="height:18px;width:25px;position:absolute;"/><span class="saved-card saved-card1">524508XXXXXX9388</span>
-											</div>
-											<div class="col-md-4 text-center ">	
-												<span class="saved-card">Exp</span>&nbsp;:&nbsp;<span class="saved-card">02/2018</span>
-											</div>
-											<div class="col-md-2 text-center nopadding-right">
-												<input type="text" class="form-control fcontrol1" placeholder="C V V" id="Cvv">					
-											</div>
-											<div class="col-md-2 text-center nopadding">
-												<img class="logobanl-mg" src="images/SBI-logo.png"/>					
-											</div>
-										</div>
-										<div class="col-md-12 payment-body nopadding-left">
-											<div class="col-md-4 nopadding">
-												<input type="radio" name="optradio" style="height:16px;width:25px;position:absolute;"/><span class="saved-card saved-card1">834213XXXXXX6558</span>
-											</div>
-											<div class="col-md-4 text-center ">
-												<span class="saved-card">Exp</span>&nbsp;:&nbsp;<span class="saved-card">06/2022</span>
-											</div>
-											<div class="col-md-2 text-center nopadding-right">
-												<input type="text" class="form-control fcontrol1" placeholder="C V V" id="Cvv">					
-											</div>
-											<div class="col-md-2 text-center nopadding">
-												<img class="logobanl-mg" src="images/SBI-logo.png"/>					
-											</div>
-										</div>
-										<div class="col-md-12 text-right nopadding-right">
-											<button class="subscribe btn btn-primary btn-sm" type="button">Pay 560</button>
-										</div>
-									</div>
+				<ul class="nav-align pull-right">
+					<li class="active"><a href="index.html"><i class="fa fa-home"></i>Bus Tickets</a></li>
+					<li><a href="PrintSmsTicket.html"><i class="fa fa-mobile" ></i>Print/Sms Ticket</a></li>
+					<li><a href="CancelTicket.html"><i class="fa fa-ticket" aria-hidden="true"></i>Cancel Ticket</a></li>
+					<li class="sub-menu">
+						<li>
+							<a href="ContactUs.html"><i class="fa fa-address-book" aria-hidden="true"></i>Contact &nbsp;&nbsp;<i class="fa fa-angle-down"></i></a>
+							<!-- children nav -->
+							<ul class="children">
+								<li><a href="#"><i class="fa fa-mobile" aria-hidden="true"></i>+91 7658941111 </a></li>
+								<li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i>+91 40-23296666 </a></li>
+								<li><a href="ContactUs.html"><i class="fa fa-envelope" aria-hidden="true"></i>Contact Us</a></li>
+							</ul>
+						</li>
+						<li class="sub-menu"><a href="#"><i class="fa fa-user-circle-o user-log"></i>User &nbsp;&nbsp;<i class="fa fa-angle-down"></i></a>
+							<ul class="children">
+								<li><a href="user-profile.html">My Profile</a></li>
+								<li><a href="user-profile.html">Booking History</a></li>
+								<li><a href="user-profile.html">Notifications</a></li>
+								<li><a href="user-profile.html">Change Password</a></li>
+								<li><a href="user-profile.html">Log Out</a></li>
+							</ul>
+						</li>
 
-								 </div>
-								 <div class="tab-pane" id="b">
+				</ul>
+			</nav>
+			<!-- navigation end -->
+		</div>
+	</header>
+	<!-- header end -->
+	<div id="fh5co-wrapper">
+		<div id="fh5co-page">
+			<div class="spacer1"></div>
+
+			<div class="container-fluid clearfix ">
+				<div class="row">
+					<div class="col-md-12 payment-head">
+						<div class="col-md-7 text-right timer">
+							<span>Hyderabad &nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i>&nbsp;   Tenali</span><span>&nbsp;&nbsp;20-Jun-2017</span>
+						</div>
+						<div class="col-md-4 text-right timer">
+							<span><i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;&nbsp;<span>5:29</span> minutes left</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="spacer"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="col-md-6">
+							<div class="col-md-12">
+								<div class="col-md-12 payment-body">
+									<div class="col-md-12 payment-body3">
+										<p class="payment-details-header">Enter passenger details</p>
+									</div>
+									<form>
+										<div class="form-group col-md-6">
+											<label class="label-align" for="usr">First Name:</label>
+											<input type="text" class="form-control Form-padding" id="usr">
+										</div>
+										<div class="form-group col-md-6">
+											<label class="label-align" for="usr">Last Name:</label>
+											<input type="text" class="form-control Form-padding" id="usr">
+										</div>
+										<div class="form-group col-md-6">
+											<label class="label-align" for="pwd">Age:</label>
+											<input type="password" class="form-control Form-padding" id="pwd">
+										</div>
+										<div class="form-group col-md-6">
+											<label class="label-align" for="pwd">Gender:</label><br/>
+											<input type="radio" name="optradio" style="height:16px;width:25px;"><span class="gender-select">Male</span>
+											<input type="radio" name="optradio" style="height:16px;width:25px;"><span class="gender-select">Female</span>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="col-md-12">
+								<div class="col-md-12 payment-body">
+									<div class="col-md-12 payment-body3">
+										<p class="payment-details-header">Enter Contact details</p>
+									</div>
+									<form>
+										<div class="form-group col-md-12">
+											<label class="label-align" for="usr">Email address</label>
+											<input type="text" class="form-control Form-padding" id="usr">
+										</div>
+										<div class="form-group col-md-6">
+											<label class="label-align" for="pwd">Mobile Number</label>
+											<input type="password" class="form-control Form-padding" id="pwd">
+										</div>
+										<div class="form-group col-md-6">
+											<label class="label-align" for="pwd">Alternate Number:</label>
+											<input type="password" class="form-control Form-padding" id="pwd">
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="spacer"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="col-md-8">
+							<div class="col-md-12">
+								<div class="col-md-12 payment-body">
+									<div class="col-md-6 cupon-code">
+										<label class="label-align" class="cupon-code" for="roundedOne">I have an offer code</label>
+									</div>
+									<div class="col-md-6 fieldwrapper cuponid">
+										<input id="cupon" type="text" class="form-control Form-padding" name="cupon" placeholder="Enter Code">
+										<button class="btn btn-xs btn-primary"><b>Apply</b></button>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="col-md-12 payment-body">
+									<div class="col-md-6">
+										<label class="label-align" class="cupon-code" for="check">IndiaBus Wallet</label>
+									</div>
+									<div class="col-md-6 text-right">
+										<span>Current Balance is INR 0</span>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="col-md-12 payment-body">
+									<div class="tabbable tabs-left">
+										<ul class="nav nav-tabs col-md-4">
+											<li class="active"><a href="#a" data-toggle="tab"><i class="fa fa-credit-card" aria-hidden="true">&nbsp;&nbsp;</i>Saved Card</a></li>
+											<li><a href="#b" data-toggle="tab"><i class="fa fa-credit-card" aria-hidden="true">&nbsp;&nbsp;</i>Credit Card</a></li>
+											<li><a href="#c" data-toggle="tab"><i class="fa fa-credit-card" aria-hidden="true">&nbsp;&nbsp;</i>Debit Card</a></li>
+											<li><a href="#d" data-toggle="tab"><i class="fa fa-id-card" aria-hidden="true">&nbsp;&nbsp;</i>Net Banking</a></li>
+											<li><a href="#e" data-toggle="tab"><img class="Wallet" src="images/Wallet.png"/>Wallets</a></li>
+										</ul>
+										<div class="tab-content tab-content1 col-md-7 nopadding">
+											<div class="tab-pane active" id="a">
+												<div class="row">
+													<div class="col-md-12 payment-body nopadding-left">
+														<div class="col-md-4 nopadding">
+															<input type="radio" name="optradio" style="height:18px;width:25px;position:absolute;" /><span class="saved-card saved-card1">524508XXXXXX9388</span>
+														</div>
+														<div class="col-md-4 text-center ">
+															<span class="saved-card">Exp</span>&nbsp;:&nbsp;<span class="saved-card">02/2018</span>
+														</div>
+														<div class="col-md-2 text-center nopadding-right">
+															<input type="text" class="form-control fcontrol1" placeholder="C V V" id="Cvv">
+														</div>
+														<div class="col-md-2 text-center nopadding">
+															<img class="logobanl-mg" src="images/SBI-logo.png" />
+														</div>
+													</div>
+													<div class="col-md-12 payment-body nopadding-left">
+														<div class="col-md-4 nopadding">
+															<input type="radio" name="optradio" style="height:16px;width:25px;position:absolute;" /><span class="saved-card saved-card1">834213XXXXXX6558</span>
+														</div>
+														<div class="col-md-4 text-center ">
+															<span class="saved-card">Exp</span>&nbsp;:&nbsp;<span class="saved-card">06/2022</span>
+														</div>
+														<div class="col-md-2 text-center nopadding-right">
+															<input type="text" class="form-control fcontrol1" placeholder="C V V" id="Cvv">
+														</div>
+														<div class="col-md-2 text-center nopadding">
+															<img class="logobanl-mg" src="images/SBI-logo.png" />
+														</div>
+													</div>
+													<div class="col-md-12 text-right nopadding-right">
+														<button class="subscribe btn btn-primary btn-sm" type="button">Pay 560</button>
+													</div>
+												</div>
+
+											</div>
+											<div class="tab-pane" id="b">
 												<div class="col-xs-12 col-md-12 nopadding">
 													<div class="col-xs-12 col-md-12 nopadding">
 														<div class="form-group">
-															<label class="label-align"for="cardNumber">CARD NUMBER</label>
+															<label class="label-align" for="cardNumber">CARD NUMBER</label>
 															<div class="input-group">
-																<input type="tel" class="form-control Form-padding" name="cardNumber" placeholder="Valid Card Number" autocomplete="cc-number" required autofocus/>
+																<input type="tel" class="form-control Form-padding" name="cardNumber" placeholder="Valid Card Number" autocomplete="cc-number"
+																 required autofocus/>
 																<span class="input-group-addon input-group-addon1">                           
 																	<img class="cards-input" src="images/master-card.png">
 																	<img class="cards-input" src="images/visa-card.png">
 																	<img class="cards-input" src="images/maestro-card.png">
 																</span>
 															</div>
-														</div>                            
+														</div>
 													</div>
 													<div class="col-md-12 nopadding">
 														<div class="col-md-7 nopadding">
 															<div class="form-group">
-																<label class="label-align"for="cardExpiry"><span class="hidden-xs">EXPIRATION</span><span class="visible-xs-inline">EXP</span> DATE</label>
-																<input type="tel" class="form-control Form-padding" name="cardExpiry" placeholder="MM / YY" autocomplete="cc-exp" required />
+																<label class="label-align" for="cardExpiry"><span class="hidden-xs">EXPIRATION</span><span class="visible-xs-inline">EXP</span> DATE</label>
+																<input type="tel" class="form-control Form-padding" name="cardExpiry" placeholder="MM / YY" autocomplete="cc-exp" required
+																/>
 															</div>
 														</div>
 														<div class="col-md-5 pull-right nopadding-right">
 															<div class="form-group">
-																<label class="label-align"for="cardCVC">CV CODE</label>
+																<label class="label-align" for="cardCVC">CV CODE</label>
 																<input type="tel" class="form-control Form-padding" name="cardCVC" placeholder="CVC" autocomplete="cc-csc" required />
 															</div>
 														</div>
 													</div>
-														<div class="col-md-12 nopadding">
-															<div class="form-group">
-																<label class="label-align"for="couponCode">Name On Card</label>
-																<input type="text" class="form-control Form-padding" name="NameOnCard" />
-															</div>
-														</div>                        
-														<div class="col-md-4">
-															<button class="subscribe btn btn-sm btn-primary" type="button">Pay 560</button>
-														</div>
-														<div class="col-md-8 pull-right nopadding-right">
-															<img class="paye-details" src="images/master_card1.png">
-															<img class="paye-details" src="images/visa-verified.png">
-															<img class="paye-details" src="images/veri_sign.png">
-															<img class="paye-details" src="images/american_express.png">
-														</div>
-													<div class="row" style="display:none;">
-														<div class="col-xs-12">
-															<p class="payment-errors"></p>
-														</div>
-													</div>
-												</div>            
-											</div>
-								 <div class="tab-pane" id="c">
-									<div class="col-xs-12 col-md-12 nopadding">
-													<div class="col-xs-12 col-md-12 nopadding">
+													<div class="col-md-12 nopadding">
 														<div class="form-group">
-															<label class="label-align"for="cardNumber">CARD NUMBER</label>
-															<div class="input-group">
-																<input type="tel" class="form-control Form-padding" name="cardNumber" placeholder="Valid Card Number" autocomplete="cc-number" required autofocus/>
-																<span class="input-group-addon input-group-addon1">                           
-																	<img class="cards-input" src="images/master-card.png">
-																	<img class="cards-input" src="images/visa-card.png">
-																	<img class="cards-input" src="images/maestro-card.png">
-																</span>
-															</div>
-														</div>                            
-													</div>
-													<div class="col-md-12 nopadding">
-														<div class="col-md-7 nopadding">
-															<div class="form-group">
-																<label class="label-align"for="cardExpiry"><span class="hidden-xs">EXPIRATION</span><span class="visible-xs-inline">EXP</span> DATE</label>
-																<input type="tel" class="form-control Form-padding" name="cardExpiry" placeholder="MM / YY" autocomplete="cc-exp" required />
-															</div>
-														</div>
-														<div class="col-md-5 pull-right nopadding-right">
-															<div class="form-group">
-																<label class="label-align"for="cardCVC">CV CODE</label>
-																<input type="tel" class="form-control Form-padding" name="cardCVC" placeholder="CVC" autocomplete="cc-csc" required />
-															</div>
+															<label class="label-align" for="couponCode">Name On Card</label>
+															<input type="text" class="form-control Form-padding" name="NameOnCard" />
 														</div>
 													</div>
-														<div class="col-md-12 nopadding">
-															<div class="form-group">
-																<label class="label-align"for="couponCode">Name On Card</label>
-																<input type="text" class="form-control Form-padding" name="NameOnCard" />
-															</div>
-														</div>                        
-														<div class="col-md-4">
-															<button class="subscribe btn-sm btn btn-primary" type="button">Pay 560</button>
-														</div>
-														<div class="col-md-8 pull-right nopadding-right">
-															<img class="paye-details" src="images/master_card1.png">
-															<img class="paye-details" src="images/visa-verified.png">
-															<img class="paye-details" src="images/veri_sign.png">
-															<img class="paye-details" src="images/american_express.png">
-														</div>
+													<div class="col-md-4">
+														<button class="subscribe btn btn-sm btn-primary" type="button">Pay 560</button>
+													</div>
+													<div class="col-md-8 pull-right nopadding-right">
+														<img class="paye-details" src="images/master_card1.png">
+														<img class="paye-details" src="images/visa-verified.png">
+														<img class="paye-details" src="images/veri_sign.png">
+														<img class="paye-details" src="images/american_express.png">
+													</div>
 													<div class="row" style="display:none;">
 														<div class="col-xs-12">
 															<p class="payment-errors"></p>
 														</div>
 													</div>
 												</div>
-								 </div>
-								<div class="tab-pane" id="d">Thirdamuno, ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
-								 Quisque mauris augue, molestie tincidunt condimentum vitae. </div>
-								<div class="tab-pane tab-wallet" id="e">Thirdamuno, ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. 
-								 Quisque mauris augue, molestie tincidunt condimentum vitae. </div>
+											</div>
+											<div class="tab-pane" id="c">
+												<div class="col-xs-12 col-md-12 nopadding">
+													<div class="col-xs-12 col-md-12 nopadding">
+														<div class="form-group">
+															<label class="label-align" for="cardNumber">CARD NUMBER</label>
+															<div class="input-group">
+																<input type="tel" class="form-control Form-padding" name="cardNumber" placeholder="Valid Card Number" autocomplete="cc-number"
+																 required autofocus/>
+																<span class="input-group-addon input-group-addon1">                           
+																	<img class="cards-input" src="images/master-card.png">
+																	<img class="cards-input" src="images/visa-card.png">
+																	<img class="cards-input" src="images/maestro-card.png">
+																</span>
+															</div>
+														</div>
+													</div>
+													<div class="col-md-12 nopadding">
+														<div class="col-md-7 nopadding">
+															<div class="form-group">
+																<label class="label-align" for="cardExpiry"><span class="hidden-xs">EXPIRATION</span><span class="visible-xs-inline">EXP</span> DATE</label>
+																<input type="tel" class="form-control Form-padding" name="cardExpiry" placeholder="MM / YY" autocomplete="cc-exp" required
+																/>
+															</div>
+														</div>
+														<div class="col-md-5 pull-right nopadding-right">
+															<div class="form-group">
+																<label class="label-align" for="cardCVC">CV CODE</label>
+																<input type="tel" class="form-control Form-padding" name="cardCVC" placeholder="CVC" autocomplete="cc-csc" required />
+															</div>
+														</div>
+													</div>
+													<div class="col-md-12 nopadding">
+														<div class="form-group">
+															<label class="label-align" for="couponCode">Name On Card</label>
+															<input type="text" class="form-control Form-padding" name="NameOnCard" />
+														</div>
+													</div>
+													<div class="col-md-4">
+														<button class="subscribe btn-sm btn btn-primary" type="button">Pay 560</button>
+													</div>
+													<div class="col-md-8 pull-right nopadding-right">
+														<img class="paye-details" src="images/master_card1.png">
+														<img class="paye-details" src="images/visa-verified.png">
+														<img class="paye-details" src="images/veri_sign.png">
+														<img class="paye-details" src="images/american_express.png">
+													</div>
+													<div class="row" style="display:none;">
+														<div class="col-xs-12">
+															<p class="payment-errors"></p>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="tab-pane" id="d">Thirdamuno, ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. Quisque
+												mauris augue, molestie tincidunt condimentum vitae. </div>
+											<div class="tab-pane tab-wallet" id="e">Thirdamuno, ipsum dolor sit amet, consectetur adipiscing elit. Duis pharetra varius quam sit amet vulputate. Quisque
+												mauris augue, molestie tincidunt condimentum vitae. </div>
+										</div>
+									</div>
 								</div>
-							  </div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 nopadding">
-					<div class="col-md-12 payment-body">
-						<div class="col-md-12 paye-details2">
-							<div class="col-md-6">
-								<span class="paye-details1"><b>Morning Star Travels - (A/C Gold Class (2+2))</b></span>
 							</div>
-							<div class="col-md-6">
-								<span class="paye-details1"><b>DEPARTURE TIME
+						</div>
+						<div class="col-md-4 nopadding">
+							<div class="col-md-12 payment-body">
+								<div class="col-md-12 paye-details2">
+									<div class="col-md-6">
+										<span class="paye-details1"><b>Morning Star Travels - (A/C Gold Class (2+2))</b></span>
+									</div>
+									<div class="col-md-6">
+										<span class="paye-details1"><b>DEPARTURE TIME
 								<br />21-Jun-2017 22:05</b></span>
+									</div>
+								</div>
 							</div>
-						</div>
-					</div>
-					<div class="col-md-12 payment-body">
-						<div class="col-md-12">
-							<div class="col-md-6">
-								<span class="paye-details1"><b>Name:</b>(name)</span>
+							<div class="col-md-12 payment-body">
+								<div class="col-md-12">
+									<div class="col-md-6">
+										<span class="paye-details1"><b>Name:</b>(name)</span>
+									</div>
+									<div class="col-md-6">
+										<span class="paye-details1"><b>Seat No:</b>3d</span>
+									</div>
+								</div>
 							</div>
-							<div class="col-md-6">
-								<span class="paye-details1"><b>Seat No:</b>3d</span>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-12 payment-body">
-						<div class="col-md-12">
-							<div class="col-md-6">
-								<span class="paye-details1 pull-left"><b>FARE BREAK UP</b></span>
-							</div>
-							<div class="col-md-6">
-								<span class="paye-details1 pull-right"><b><a href="#">View Summary</a></span>
-							</div>
-						</div>
+							<div class="col-md-12 payment-body">
+								<div class="col-md-12">
+									<div class="col-md-6">
+										<span class="paye-details1 pull-left"><b>FARE BREAK UP</b></span>
+									</div>
+									<div class="col-md-6">
+										<span class="paye-details1 pull-right"><b><a href="#">View Summary</a></span>
+									</div>
+								</div>
 
-						<div class="col-md-12">
-							<div class="col-md-12">
-								<p class="paye-details1"><strong>ONWARD FARE</strong></p>
+								<div class="col-md-12">
+									<div class="col-md-12">
+										<p class="paye-details1"><strong>ONWARD FARE</strong></p>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="col-md-6">
+										<span class="paye-details1 pull-left"><b>Base Fare</b></span>
+									</div>
+									<div class="col-md-6">
+										<span class="paye-details1 pull-right"><b><a href="#">INR 550</a></span>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="col-md-6">
+										<span class="paye-details1 pull-left"><b>Service Tax</b></span>
+									</div>
+									<div class="col-md-6">
+										<span class="paye-details1 pull-right"><b><a href="#">INR 33</a></span>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="col-md-6">
+										<span class="paye-details1 pull-left"><b>Service Charge</b></span>
+									</div>
+									<div class="col-md-6">
+										<span class="paye-details1 pull-right"><b><a href="#">INR 8</a></span>
+									</div>
+								</div>
+
+							</div>
+							<div class="col-md-12 payment-body1">
+								<div class="col-md-6">
+									<span class="paye-details1 pull-left"><b>TOTAL PAYABLE</b></span>
+								</div>
+								<div class="col-md-6">
+									<span class="paye-details1 pull-right"><b><a href="#"> INR 591</a></span>
+								</div>
 							</div>
 						</div>
-						<div class="col-md-12">
-							<div class="col-md-6">
-								<span class="paye-details1 pull-left"><b>Base Fare</b></span>
-							</div>
-							<div class="col-md-6">
-								<span class="paye-details1 pull-right"><b><a href="#">INR 550</a></span>
-							</div>
-						</div>
-						<div class="col-md-12">
-							<div class="col-md-6">
-								<span class="paye-details1 pull-left"><b>Service Tax</b></span>
-							</div>
-							<div class="col-md-6">
-								<span class="paye-details1 pull-right"><b><a href="#">INR 33</a></span>
-							</div>
-						</div>	
-						<div class="col-md-12">
-							<div class="col-md-6">
-								<span class="paye-details1 pull-left"><b>Service Charge</b></span>
-							</div>
-							<div class="col-md-6">
-								<span class="paye-details1 pull-right"><b><a href="#">INR 8</a></span>
-							</div>
-						</div>	
-						
-					</div>
-					<div class="col-md-12 payment-body1">
-							<div class="col-md-6">
-								<span class="paye-details1 pull-left"><b>TOTAL PAYABLE</b></span>
-							</div>
-							<div class="col-md-6">
-								<span class="paye-details1 pull-right"><b><a href="#"> INR 591</a></span>
-							</div>
-						</div>	
-						</div>
-					</div
+					</div </div>
 				</div>
 			</div>
 		</div>
-	</div>
 
-			<div class="spacer"></div>
-<footer>
+		<div class="spacer"></div>
+		<footer>
 			<div id="footer">
 				<div class="container">
 					<div class="row row-bottom-padded-md">
@@ -470,100 +481,100 @@
 						</div>
 					</div>
 					<div class="row">
-						  <div class="col-md-12 col-xs-12 footer_adr">
-								<div class="col-md-5 col-sm-4 col-xs-12 contact-footer1"><i class="fa fa-map-marker contact-footer" aria-hidden="true"></i><span>Plot # 255, Level2, Adarsh Nagar Hyderabad - 500063</span></div>
-								<div class="col-md-2 col-sm-3 col-xs-6 contact-footer1 text-right"><i class="fa fa-envelope-o contact-footer" aria-hidden="true"></i>info@indiabus.com</div>
-								<div class="col-md-2 col-sm-3 col-xs-6 contact-footer1 text-right"><i class="fa fa-mobile contact-footer" aria-hidden="true"></i>+91 40-23296666</div>
-								<div class="col-md-3 col-sm-3 col-xs-6 contact-footer1 text-right"><i class="fa fa-fax contact-footer" aria-hidden="true"></i>+91 40-23241234</div>
-						  </div>
+						<div class="col-md-12 col-xs-12 footer_adr">
+							<div class="col-md-5 col-sm-4 col-xs-12 contact-footer1"><i class="fa fa-map-marker contact-footer" aria-hidden="true"></i><span>Plot # 255, Level2, Adarsh Nagar Hyderabad - 500063</span></div>
+							<div class="col-md-2 col-sm-3 col-xs-6 contact-footer1 text-right"><i class="fa fa-envelope-o contact-footer" aria-hidden="true"></i>info@indiabus.com</div>
+							<div class="col-md-2 col-sm-3 col-xs-6 contact-footer1 text-right"><i class="fa fa-mobile contact-footer" aria-hidden="true"></i>+91 40-23296666</div>
+							<div class="col-md-3 col-sm-3 col-xs-6 contact-footer1 text-right"><i class="fa fa-fax contact-footer" aria-hidden="true"></i>+91 40-23241234</div>
+						</div>
 					</div>
 					<div class="row">
-					<div class="col-md-12">
-						<div class="col-md-6 col-xs-12 col-sm-5 footer_icons">
-							<p class="fh5co-social-icons">
-								<a href="#"><i class="icon-twitter2"></i></a>
-								<a href="#"><i class="icon-facebook2"></i></a>
-								<a href="#"><i class="icon-instagram"></i></a>
-								<a href="#"><i class="icon-dribbble2"></i></a>
-								<a href="#"><i class="icon-youtube"></i></a>
-							</p>
-						</div>
-						<div class="col-md-6 col-xs-12 col-sm-7 footer_icons pull-right text-right">
-							<p class="media-classp">Copyright 2017 <a href="#">Module</a>. All Rights Reserved by <a href="http://firstzen.in" target="_blank">IndiaBus</a></p>
-						</div>
+						<div class="col-md-12">
+							<div class="col-md-6 col-xs-12 col-sm-5 footer_icons">
+								<p class="fh5co-social-icons">
+									<a href="#"><i class="icon-twitter2"></i></a>
+									<a href="#"><i class="icon-facebook2"></i></a>
+									<a href="#"><i class="icon-instagram"></i></a>
+									<a href="#"><i class="icon-dribbble2"></i></a>
+									<a href="#"><i class="icon-youtube"></i></a>
+								</p>
+							</div>
+							<div class="col-md-6 col-xs-12 col-sm-7 footer_icons pull-right text-right">
+								<p class="media-classp">Copyright 2017 <a href="#">Module</a>. All Rights Reserved by <a href="http://firstzen.in" target="_blank">IndiaBus</a></p>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</footer>
 		<!--Modal login/register-->
-				 <div class="modal fade login" id="loginModal">
-		      <div class="modal-dialog login animated">
-    		      <div class="modal-content">
-    		         <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h4 class="modal-title">Login with</h4>
-                    </div>
-                    <div class="modal-body">  
-                        <div class="box">
-                             <div class="content">
-                                <div class="social">
-                                    <a id="google_login" class="circle google" href="#">
+		<div class="modal fade login" id="loginModal">
+			<div class="modal-dialog login animated">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title">Login with</h4>
+					</div>
+					<div class="modal-body">
+						<div class="box">
+							<div class="content">
+								<div class="social">
+									<a id="google_login" class="circle google" href="#">
                                         <i class="fa fa-google-plus fa-fw"></i>
                                     </a>
-                                    <a id="facebook_login" class="circle facebook" href="#">
+									<a id="facebook_login" class="circle facebook" href="#">
                                         <i class="fa fa-facebook fa-fw"></i>
                                     </a>
-                                </div>
-                                <div class="division">
-                                    <div class="line l"></div>
-                                      <span>or</span>
-                                    <div class="line r"></div>
-                                </div>
-                                <div class="error"></div>
-                                <div class="form loginBox">
-                                    <form method="post" action="/login" accept-charset="UTF-8">
-                                    <input id="email" class="form-control input-trans" type="text" placeholder="Email" name="email">
-                                    <input id="password" class="form-control input-trans" type="password" placeholder="Password" name="password">
-                                    <input  class="btn btn-default btn-login" type="button" value="Login" onclick="loginAjax()">
-                                    </form>
-                                </div>
-                             </div>
-                        </div>
-                          <div class="box">
-                            <div class="content registerBox" style="display:none;">
-                             <div class="form">
-                                <form method="post" html="{:multipart=>true}" data-remote="true" action="/register" accept-charset="UTF-8">
-                                <input id="email" class="form-control Form-padding" type="text" placeholder="Email" name="email">
-                                <input id="password" class="form-control Form-padding" type="password" placeholder="Password" name="password">
-                                <input id="password_confirmation" class="form-control Form-padding" type="password" placeholder="Repeat Password" name="password_confirmation">
-                                <input class="btn btn-default btn-register" type="button" value="Register" onclick="loginAjax()">
-                                </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <div class="forgot login-footer">
-                            <span>Looking to 
+								</div>
+								<div class="division">
+									<div class="line l"></div>
+									<span>or</span>
+									<div class="line r"></div>
+								</div>
+								<div class="error"></div>
+								<div class="form loginBox">
+									<form method="post" action="/login" accept-charset="UTF-8">
+										<input id="email" class="form-control input-trans" type="text" placeholder="Email" name="email">
+										<input id="password" class="form-control input-trans" type="password" placeholder="Password" name="password">
+										<input class="btn btn-default btn-login" type="button" value="Login" onclick="loginAjax()">
+									</form>
+								</div>
+							</div>
+						</div>
+						<div class="box">
+							<div class="content registerBox" style="display:none;">
+								<div class="form">
+									<form method="post" html="{:multipart=>true}" data-remote="true" action="/register" accept-charset="UTF-8">
+										<input id="email" class="form-control Form-padding" type="text" placeholder="Email" name="email">
+										<input id="password" class="form-control Form-padding" type="password" placeholder="Password" name="password">
+										<input id="password_confirmation" class="form-control Form-padding" type="password" placeholder="Repeat Password" name="password_confirmation">
+										<input class="btn btn-default btn-register" type="button" value="Register" onclick="loginAjax()">
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<div class="forgot login-footer">
+							<span>Looking to 
                                  <a href="javascript: showRegisterForm();">create an account</a>
                             ?</span>
-                        </div>
-                        <div class="forgot register-footer" style="display:none">
-                             <span>Already have an account?</span>
-                             <a href="javascript: showLoginForm();">Login</a>
-                        </div>
-                    </div>        
-    		      </div>
-		      </div>
+						</div>
+						<div class="forgot register-footer" style="display:none">
+							<span>Already have an account?</span>
+							<a href="javascript: showLoginForm();">Login</a>
+						</div>
+					</div>
+				</div>
+			</div>
 
-		<!--Modal login/register-->
-	</div>
-	<!-- END fh5co-page -->
+			<!--Modal login/register-->
+		</div>
+		<!-- END fh5co-page -->
 	</div>
 	<!-- END fh5co-wrapper -->
 	<!-- jQuery -->
-	
+
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
 	<script src="js/jquery.easing.1.3.js"></script>
@@ -588,8 +599,8 @@
 	<!-- Main JS -->
 	<script src="js/main.js"></script>
 	<style>
-	
-	</style>
-	</body>
-</html>
 
+	</style>
+</body>
+
+</html>
