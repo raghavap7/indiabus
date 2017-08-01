@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://raghavap7.github.io/indiabus/</title>
+  <link>https://raghavap7.github.io/indiabus/</link>
+
+<item>
+     <link>https://raghavap7.github.io/indiabus/</link>
+     <title>IndiaBus</title>
+     <description>online bus ticket booking, bus booking, volvo ac bus booking, bus ticket booking, bus tickets</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://raghavap7.github.io/indiabus/index.html</link>
+     <title>IndiaBus</title>
+     <description>online bus ticket booking, bus booking, volvo ac bus booking, bus ticket booking, bus tickets</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://raghavap7.github.io/indiabus/PrintSmsTicket.html</link>
+     <title>IndiaBus</title>
+     <description>online bus ticket booking, bus booking, volvo ac bus booking, bus ticket booking, bus tickets</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://raghavap7.github.io/indiabus/CancelTicket.html</link>
+     <title>IndiaBus</title>
+     <description>online bus ticket booking, bus booking, volvo ac bus booking, bus ticket booking, bus tickets</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://raghavap7.github.io/indiabus/ContactUs.html</link>
+     <title>IndiaBus</title>
+     <description>online bus ticket booking, bus booking, volvo ac bus booking, bus ticket booking, bus tickets</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://raghavap7.github.io/indiabus/Agent_login.html</link>
+     <title>IndiaBus</title>
+     <description>online bus ticket booking, bus booking, volvo ac bus booking, bus ticket booking, bus tickets</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://raghavap7.github.io/indiabus/searchbuses.html</link>
+     <title>IndiaBus</title>
+     <description>online bus ticket booking, bus booking, volvo ac bus booking, bus ticket booking, bus tickets</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://raghavap7.github.io/indiabus/popular-routes.html</link>
+     <title>IndiaBus</title>
+     <description>online bus ticket booking, bus booking, volvo ac bus booking, bus ticket booking, bus tickets</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://raghavap7.github.io/indiabus/user-profile.html</link>
+     <title>IndiaBus</title>
+     <description>online bus ticket booking, bus booking, volvo ac bus booking, bus ticket booking, bus tickets</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://raghavap7.github.io/indiabus/Agent-index.html</link>
+     <title>IndiaBus</title>
+     <description>online bus ticket booking, bus booking, volvo ac bus booking, bus ticket booking, bus tickets</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://raghavap7.github.io/indiabus/AgentPrintSmsTicket.html</link>
+     <title>IndiaBus</title>
+     <description>online bus ticket booking, bus booking, volvo ac bus booking, bus ticket booking, bus tickets</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://raghavap7.github.io/indiabus/AgentCancelTicket.html</link>
+     <title>IndiaBus</title>
+     <description>online bus ticket booking, bus booking, volvo ac bus booking, bus ticket booking, bus tickets</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://raghavap7.github.io/indiabus/AgentContactUs.html</link>
+     <title>IndiaBus</title>
+     <description>online bus ticket booking, bus booking, volvo ac bus booking, bus ticket booking, bus tickets</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://raghavap7.github.io/indiabus/AgentForgotPassword.html</link>
+     <title>IndiaBus</title>
+     <description>online bus ticket booking, bus booking, volvo ac bus booking, bus ticket booking, bus tickets</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://raghavap7.github.io/indiabus/Agent-Registration-Form.html</link>
+     <title>IndiaBus</title>
+     <description>online bus ticket booking, bus booking, volvo ac bus booking, bus ticket booking, bus tickets</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://raghavap7.github.io/indiabus/book-ticket.html</link>
+     <title>IndiaBus</title>
+     <description>online bus ticket booking, bus booking, volvo ac bus booking, bus ticket booking, bus tickets</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://raghavap7.github.io/indiabus/popular-routesPage1.html</link>
+     <title>IndiaBus</title>
+     <description>online bus ticket booking, bus booking, volvo ac bus booking, bus ticket booking, bus tickets</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://raghavap7.github.io/indiabus/ahmedabad-directory.html</link>
+     <title>IndiaBus</title>
+     <description>online bus ticket booking, bus booking, volvo ac bus booking, bus ticket booking, bus tickets</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>2</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://raghavap7.github.io/indiabus/Agentsearchbuses.html</link>
+     <title>IndiaBus</title>
+     <description>online bus ticket booking, bus booking, volvo ac bus booking, bus ticket booking, bus tickets</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://raghavap7.github.io/indiabus/Agent-profile.html</link>
+     <title>IndiaBus</title>
+     <description>online bus ticket booking, bus booking, volvo ac bus booking, bus ticket booking, bus tickets</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://raghavap7.github.io/indiabus/ahmedabad-to-abu-road.html</link>
+     <title>IndiaBus</title>
+     <description>online bus ticket booking, bus booking, volvo ac bus booking, bus ticket booking, bus tickets</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>3</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://raghavap7.github.io/indiabus/Agentbook-ticket.html</link>
+     <title>IndiaBus</title>
+     <description>online bus ticket booking, bus booking, volvo ac bus booking, bus ticket booking, bus tickets</description>
+     <ror:updatePeriod>always</ror:updatePeriod>
+     <ror:sortOrder>4</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
